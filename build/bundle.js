@@ -943,7 +943,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = `${/*sectionTitle*/ ctx[1]}`;
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$g, 11, 8, 363);
+    			add_location(span, file$g, 11, 8, 360);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -1049,50 +1049,50 @@ var app = (function () {
     			a2 = element("a");
     			img = element("img");
     			attr_dev(h40, "class", "address-box__title svelte-1ghmze4");
-    			add_location(h40, file$g, 17, 12, 552);
-    			add_location(p0, file$g, 20, 12, 657);
+    			add_location(h40, file$g, 17, 12, 549);
+    			add_location(p0, file$g, 20, 12, 654);
     			attr_dev(li0, "class", "svelte-1ghmze4");
-    			add_location(li0, file$g, 25, 14, 834);
+    			add_location(li0, file$g, 25, 14, 831);
     			attr_dev(li1, "class", "svelte-1ghmze4");
-    			add_location(li1, file$g, 26, 14, 892);
+    			add_location(li1, file$g, 26, 14, 889);
     			attr_dev(ul, "class", "marker-list svelte-1ghmze4");
-    			add_location(ul, file$g, 24, 12, 794);
-    			add_location(p1, file$g, 28, 12, 960);
+    			add_location(ul, file$g, 24, 12, 791);
+    			add_location(p1, file$g, 28, 12, 957);
     			attr_dev(a0, "class", "icon-link calendar-icon svelte-1ghmze4");
     			attr_dev(a0, "href", "/");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$g, 29, 12, 1021);
+    			add_location(a0, file$g, 29, 12, 1018);
     			attr_dev(div0, "class", "address-box svelte-1ghmze4");
-    			add_location(div0, file$g, 16, 10, 513);
+    			add_location(div0, file$g, 16, 10, 510);
     			attr_dev(h41, "class", "address-box__title svelte-1ghmze4");
-    			add_location(h41, file$g, 34, 12, 1215);
-    			add_location(p2, file$g, 37, 12, 1315);
+    			add_location(h41, file$g, 34, 12, 1212);
+    			add_location(p2, file$g, 37, 12, 1312);
     			attr_dev(a1, "class", "icon-link map-icon svelte-1ghmze4");
     			attr_dev(a1, "href", "/");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$g, 44, 12, 1690);
+    			add_location(a1, file$g, 44, 12, 1687);
     			attr_dev(div1, "class", "address-box svelte-1ghmze4");
-    			add_location(div1, file$g, 33, 10, 1176);
+    			add_location(div1, file$g, 33, 10, 1173);
     			attr_dev(div2, "class", "address-content svelte-1ghmze4");
-    			add_location(div2, file$g, 15, 8, 472);
+    			add_location(div2, file$g, 15, 8, 469);
     			attr_dev(img, "class", "map-image");
     			if (!src_url_equal(img.src, img_src_value = "content/Address/map.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*sectionTitle*/ ctx[1]);
-    			add_location(img, file$g, 50, 10, 1907);
+    			add_location(img, file$g, 50, 10, 1904);
     			attr_dev(a2, "class", "map-link");
     			attr_dev(a2, "href", "/");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$g, 49, 8, 1850);
+    			add_location(a2, file$g, 49, 8, 1847);
     			attr_dev(div3, "class", "text-block svelte-1ghmze4");
-    			add_location(div3, file$g, 14, 6, 438);
+    			add_location(div3, file$g, 14, 6, 435);
     			attr_dev(div4, "class", "content svelte-1ghmze4");
-    			add_location(div4, file$g, 9, 4, 308);
+    			add_location(div4, file$g, 9, 4, 305);
     			attr_dev(div5, "class", "wrapper");
-    			add_location(div5, file$g, 8, 2, 281);
+    			add_location(div5, file$g, 8, 2, 278);
     			attr_dev(section, "class", "section address svelte-1ghmze4");
     			attr_dev(section, "id", "howReach");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$g, 7, 0, 191);
+    			add_location(section, file$g, 7, 0, 188);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1168,7 +1168,7 @@ var app = (function () {
     function instance$h($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Address', slots, []);
-    	let bgUrl = "../content/Address/bg.jpg";
+    	let bgUrl = "content/Address/bg.jpg";
     	let sectionTitle = "Как добраться до горнолыжного комплекса";
     	const writable_props = [];
 
