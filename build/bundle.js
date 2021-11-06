@@ -1076,7 +1076,7 @@ var app = (function () {
     			attr_dev(div2, "class", "address-content svelte-1ghmze4");
     			add_location(div2, file$g, 15, 8, 472);
     			attr_dev(img, "class", "map-image");
-    			if (!src_url_equal(img.src, img_src_value = "../content/Address/map.jpg")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "content/Address/map.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*sectionTitle*/ ctx[1]);
     			add_location(img, file$g, 50, 10, 1907);
     			attr_dev(a2, "class", "map-link");
@@ -1168,7 +1168,7 @@ var app = (function () {
     function instance$h($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Address', slots, []);
-    	let bgUrl = "../content/Address/bg.jpg";
+    	let bgUrl = "content/Address/bg.jpg";
     	let sectionTitle = "Как добраться до горнолыжного комплекса";
     	const writable_props = [];
 
@@ -2007,7 +2007,7 @@ var app = (function () {
     			t29 = space();
     			img4 = element("img");
     			attr_dev(img0, "class", "text-block-bg svelte-ywyavb");
-    			if (!src_url_equal(img0.src, img0_src_value = "../content/GuestHouses/pencil-image.png")) attr_dev(img0, "src", img0_src_value);
+    			if (!src_url_equal(img0.src, img0_src_value = "content/GuestHouses/pencil-image.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
     			add_location(img0, file$c, 9, 8, 285);
     			attr_dev(h3, "class", "section__title svelte-ywyavb");
@@ -2015,7 +2015,7 @@ var app = (function () {
     			attr_dev(p0, "class", "svelte-ywyavb");
     			add_location(p0, file$c, 15, 8, 475);
     			attr_dev(img1, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img1.src, img1_src_value = "../content/GuestHouses/home-1.svg")) attr_dev(img1, "src", img1_src_value);
+    			if (!src_url_equal(img1.src, img1_src_value = "content/GuestHouses/home-1.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			add_location(img1, file$c, 19, 12, 615);
     			attr_dev(span0, "class", "houses__count svelte-ywyavb");
@@ -2029,7 +2029,7 @@ var app = (function () {
     			attr_dev(li0, "class", "houses__item svelte-ywyavb");
     			add_location(li0, file$c, 18, 10, 576);
     			attr_dev(img2, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img2.src, img2_src_value = "../content/GuestHouses/home-2.svg")) attr_dev(img2, "src", img2_src_value);
+    			if (!src_url_equal(img2.src, img2_src_value = "content/GuestHouses/home-2.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
     			add_location(img2, file$c, 33, 12, 1086);
     			attr_dev(span4, "class", "houses__count svelte-ywyavb");
@@ -2043,7 +2043,7 @@ var app = (function () {
     			attr_dev(li1, "class", "houses__item svelte-ywyavb");
     			add_location(li1, file$c, 32, 10, 1047);
     			attr_dev(img3, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img3.src, img3_src_value = "../content/GuestHouses/home-2.svg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "content/GuestHouses/home-2.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
     			add_location(img3, file$c, 47, 12, 1559);
     			attr_dev(span8, "class", "houses__count svelte-ywyavb");
@@ -2066,7 +2066,7 @@ var app = (function () {
     			attr_dev(div0, "class", "text-block svelte-ywyavb");
     			add_location(div0, file$c, 8, 6, 251);
     			attr_dev(img4, "class", "image svelte-ywyavb");
-    			if (!src_url_equal(img4.src, img4_src_value = "../content/GuestHouses/content-image.jpg")) attr_dev(img4, "src", img4_src_value);
+    			if (!src_url_equal(img4.src, img4_src_value = "content/GuestHouses/content-image.jpg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "");
     			add_location(img4, file$c, 69, 6, 2391);
     			attr_dev(article, "class", "content svelte-ywyavb");
@@ -2153,7 +2153,7 @@ var app = (function () {
     function instance$d($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('GuestHouses', slots, []);
-    	let bgUrl = "../content/GuestHouses/bg.jpg";
+    	let bgUrl = "content/GuestHouses/bg.jpg";
     	let sectionTitle = "Гостевые дома";
     	const writable_props = [];
 
@@ -2336,14 +2336,14 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "Подробнее";
     			attr_dev(img0, "class", "image svelte-k69dlo");
-    			if (!src_url_equal(img0.src, img0_src_value = "../content/Hotel/content-image.jpg")) attr_dev(img0, "src", img0_src_value);
+    			if (!src_url_equal(img0.src, img0_src_value = "content/Hotel/content-image.jpg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
     			add_location(img0, file$b, 8, 6, 234);
     			attr_dev(h3, "class", "section__title svelte-k69dlo");
     			add_location(h3, file$b, 14, 8, 379);
     			add_location(p0, file$b, 15, 8, 435);
     			attr_dev(img1, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img1.src, img1_src_value = "../content/Hotel/room-1.svg")) attr_dev(img1, "src", img1_src_value);
+    			if (!src_url_equal(img1.src, img1_src_value = "content/Hotel/room-1.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
     			add_location(img1, file$b, 22, 12, 679);
     			attr_dev(span0, "class", "rooms__title");
@@ -2355,7 +2355,7 @@ var app = (function () {
     			attr_dev(li0, "class", "rooms__item svelte-k69dlo");
     			add_location(li0, file$b, 21, 10, 641);
     			attr_dev(img2, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img2.src, img2_src_value = "../content/Hotel/room-2.svg")) attr_dev(img2, "src", img2_src_value);
+    			if (!src_url_equal(img2.src, img2_src_value = "content/Hotel/room-2.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
     			add_location(img2, file$b, 29, 12, 976);
     			attr_dev(span3, "class", "rooms__title");
@@ -2367,7 +2367,7 @@ var app = (function () {
     			attr_dev(li1, "class", "rooms__item svelte-k69dlo");
     			add_location(li1, file$b, 28, 10, 938);
     			attr_dev(img3, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img3.src, img3_src_value = "../content/Hotel/room-3.svg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "content/Hotel/room-3.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
     			add_location(img3, file$b, 36, 12, 1273);
     			attr_dev(span6, "class", "rooms__title");
@@ -2379,7 +2379,7 @@ var app = (function () {
     			attr_dev(li2, "class", "rooms__item svelte-k69dlo");
     			add_location(li2, file$b, 35, 10, 1235);
     			attr_dev(img4, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img4.src, img4_src_value = "../content/Hotel/room-4.svg")) attr_dev(img4, "src", img4_src_value);
+    			if (!src_url_equal(img4.src, img4_src_value = "content/Hotel/room-4.svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "");
     			add_location(img4, file$b, 43, 12, 1570);
     			attr_dev(span9, "class", "rooms__title");
@@ -2391,7 +2391,7 @@ var app = (function () {
     			attr_dev(li3, "class", "rooms__item svelte-k69dlo");
     			add_location(li3, file$b, 42, 10, 1532);
     			attr_dev(img5, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img5.src, img5_src_value = "../content/Hotel/room-lux.svg")) attr_dev(img5, "src", img5_src_value);
+    			if (!src_url_equal(img5.src, img5_src_value = "content/Hotel/room-lux.svg")) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "");
     			add_location(img5, file$b, 50, 12, 1867);
     			attr_dev(span12, "class", "rooms__title");
@@ -2504,7 +2504,7 @@ var app = (function () {
     function instance$c($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Hotel', slots, []);
-    	let bgUrl = "../content/Hotel/bg.jpg";
+    	let bgUrl = "content/Hotel/bg.jpg";
     	let sectionTitle = "Гостиница";
     	const writable_props = [];
 
@@ -10203,7 +10203,7 @@ var app = (function () {
     function instance$5($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('News', slots, []);
-    	let bgUrl = "../content/News/bg.jpg";
+    	let bgUrl = "content/News/bg.jpg";
     	let sectionTitle = "Новостной блог";
 
     	let news = [
@@ -10211,13 +10211,13 @@ var app = (function () {
     			title: "Долгая дарит горнолыжникам ски-пасс",
     			date: "2021-11-01T21:40:00",
     			descr: "В эту пятницу, 3 декабря, на Долгой будет дан старт специальной акции для горнолыжников и сноубордистов – «Ски-пасс в подарок». Она продлится до 29 декабря включительно и повторится в конце сезона – с 1 по 29 марта 2022.",
-    			img: "../content/News/news-1.jpg"
+    			img: "content/News/news-1.jpg"
     		},
     		{
     			title: "Открытие горнолыжного сезона 2021",
     			date: "2021-10-20T14:12:00",
     			descr: "В преддверии главной премьеры нового сезона мы начинаем открывать тестовое катание по ограниченному количеству трасс, которые пригодны для катания в самом начале сезона. Официальное открытие состоится 9 декабря.",
-    			img: "../content/News/news-2.jpg"
+    			img: "content/News/news-2.jpg"
     		}
     	];
 
@@ -10559,7 +10559,7 @@ var app = (function () {
     function instance$4($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Services', slots, []);
-    	let bgUrl = "../content/Services/bg.jpg";
+    	let bgUrl = "content/Services/bg.jpg";
     	let sectionTitle = "Дополнительные развлечения и услуги";
     	const writable_props = [];
 
@@ -10894,7 +10894,7 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('SportsComplex', slots, []);
-    	let bgUrl = "../content/SportsComplex/bg.jpg";
+    	let bgUrl = "content/SportsComplex/bg.jpg";
     	let sectionTitle = "Спортивный комплекс";
     	let sectionSubtitle = "Горнолыжный комплекс находится в городе Нижний Тагил Свердловской области, на склонах горы Долгой горного хребта Весёлые горы Среднего Урала";
 
