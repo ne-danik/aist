@@ -1076,7 +1076,7 @@ var app = (function () {
     			attr_dev(div2, "class", "address-content svelte-1ghmze4");
     			add_location(div2, file$g, 15, 8, 472);
     			attr_dev(img, "class", "map-image");
-    			if (!src_url_equal(img.src, img_src_value = "../content/Address/map.jpg")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "content/Address/map.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*sectionTitle*/ ctx[1]);
     			add_location(img, file$g, 50, 10, 1907);
     			attr_dev(a2, "class", "map-link");
@@ -1440,7 +1440,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (85:10) {#each footerMenu as menuItem}
+    // (84:10) {#each footerMenu as menuItem}
     function create_each_block$4(ctx) {
     	let li;
     	let a;
@@ -1456,9 +1456,9 @@ var app = (function () {
     			t1 = space();
     			attr_dev(a, "class", "footer-menu__link");
     			attr_dev(a, "href", /*menuItem*/ ctx[7].url);
-    			add_location(a, file$d, 86, 14, 1881);
+    			add_location(a, file$d, 85, 14, 1800);
     			attr_dev(li, "class", "footer-menu__item svelte-1mq16k6");
-    			add_location(li, file$d, 85, 12, 1835);
+    			add_location(li, file$d, 84, 12, 1754);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -1476,7 +1476,7 @@ var app = (function () {
     		block,
     		id: create_each_block$4.name,
     		type: "each",
-    		source: "(85:10) {#each footerMenu as menuItem}",
+    		source: "(84:10) {#each footerMenu as menuItem}",
     		ctx
     	});
 
@@ -1594,23 +1594,23 @@ var app = (function () {
     			a5 = element("a");
     			t13 = text(t13_value);
     			attr_dev(span0, "class", "address svelte-1mq16k6");
-    			add_location(span0, file$d, 76, 8, 1487);
+    			add_location(span0, file$d, 75, 8, 1406);
     			attr_dev(a0, "class", "about-contact phone svelte-1mq16k6");
     			attr_dev(a0, "href", "tel:" + /*phone*/ ctx[2].replace(/\s+/g, ''));
-    			add_location(a0, file$d, 77, 8, 1535);
+    			add_location(a0, file$d, 76, 8, 1454);
     			attr_dev(a1, "class", "about-contact email svelte-1mq16k6");
     			attr_dev(a1, "href", "mailto:" + /*email*/ ctx[3]);
-    			add_location(a1, file$d, 80, 8, 1648);
+    			add_location(a1, file$d, 79, 8, 1567);
     			attr_dev(div0, "class", "about svelte-1mq16k6");
     			add_location(div0, file$d, 73, 6, 1344);
     			attr_dev(ul0, "class", "footer-menu__list svelte-1mq16k6");
-    			add_location(ul0, file$d, 83, 8, 1749);
-    			add_location(nav, file$d, 82, 6, 1734);
+    			add_location(ul0, file$d, 82, 8, 1668);
+    			add_location(nav, file$d, 81, 6, 1653);
     			attr_dev(path0, "fill-rule", "evenodd");
     			attr_dev(path0, "clip-rule", "evenodd");
     			attr_dev(path0, "d", "M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM16.8369 21.2507C16.8369 21.2507 17.1449 21.2171 17.3027 21.0508C17.4471 20.8984 17.4421 20.6108 17.4421 20.6108C17.4421 20.6108 17.4229 19.2678 18.0581 19.0695C18.6842 18.8745 19.488 20.3682 20.3411 20.9426C20.9855 21.3769 21.4747 21.2818 21.4747 21.2818L23.7543 21.2507C23.7543 21.2507 24.9463 21.1786 24.3812 20.2584C24.3345 20.1831 24.0515 19.5775 22.6867 18.3337C21.2568 17.0318 21.4488 17.2423 23.17 14.9899C24.2184 13.6183 24.6375 12.7809 24.5064 12.4228C24.382 12.0803 23.6108 12.1713 23.6108 12.1713L21.0448 12.1868C21.0448 12.1868 20.8545 12.1614 20.7134 12.2442C20.5757 12.3253 20.4864 12.5146 20.4864 12.5146C20.4864 12.5146 20.0807 13.5757 19.5389 14.4786C18.3962 16.3828 17.9396 16.4836 17.7526 16.3656C17.3177 16.0895 17.4262 15.2578 17.4262 14.6671C17.4262 12.821 17.7117 12.0516 16.8711 11.8525C16.5923 11.7862 16.387 11.7427 15.6733 11.7354C14.7576 11.7263 13.983 11.7386 13.5439 11.9492C13.2517 12.0893 13.0264 12.4023 13.1641 12.4203C13.3335 12.4425 13.7175 12.5219 13.9212 12.794C14.1841 13.1455 14.175 13.9337 14.175 13.9337C14.175 13.9337 14.326 16.1067 13.8219 16.3763C13.4763 16.5614 13.0022 16.1837 11.9829 14.4557C11.4612 13.5707 11.0672 12.5924 11.0672 12.5924C11.0672 12.5924 10.9913 12.4097 10.8552 12.3114C10.6908 12.1926 10.4612 12.1557 10.4612 12.1557L8.02298 12.1713C8.02298 12.1713 7.65653 12.1811 7.52214 12.3376C7.40278 12.4761 7.51296 12.7637 7.51296 12.7637C7.51296 12.7637 9.42199 17.1481 11.5839 19.3579C13.5664 21.3834 15.8169 21.2507 15.8169 21.2507H16.8369Z");
     			attr_dev(path0, "fill", "#245081");
-    			add_location(path0, file$d, 105, 14, 2423);
+    			add_location(path0, file$d, 104, 14, 2342);
     			attr_dev(svg0, "class", "social-icon svelte-1mq16k6");
     			attr_dev(svg0, "width", "32");
     			attr_dev(svg0, "height", "32");
@@ -1618,20 +1618,20 @@ var app = (function () {
     			attr_dev(svg0, "fill", "none");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg0, "xmlns:xlink", "http://www.w3.org/1999/xlink");
-    			add_location(svg0, file$d, 96, 12, 2130);
+    			add_location(svg0, file$d, 95, 12, 2049);
     			attr_dev(a2, "href", "/");
-    			add_location(a2, file$d, 95, 10, 2104);
-    			add_location(li0, file$d, 94, 8, 2088);
+    			add_location(a2, file$d, 94, 10, 2023);
+    			add_location(li0, file$d, 93, 8, 2007);
     			attr_dev(path1, "fill-rule", "evenodd");
     			attr_dev(path1, "clip-rule", "evenodd");
     			attr_dev(path1, "d", "M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM15.9891 16.2569C18.3485 16.2569 20.2664 14.4053 20.2664 12.1291C20.2664 9.85207 18.3485 8 15.9891 8C13.6303 8 11.7119 9.85207 11.7119 12.1291C11.7119 14.4053 13.6303 16.2569 15.9891 16.2569ZM17.7306 19.6269C18.6013 19.4354 19.441 19.1029 20.2144 18.634C20.7997 18.2778 20.976 17.531 20.6072 16.966C20.2387 16.3998 19.4656 16.2293 18.8792 16.5855C17.1272 17.6491 14.8714 17.6488 13.1204 16.5855C12.5341 16.2293 11.7607 16.3998 11.3929 16.966C11.0241 17.5315 11.1999 18.2778 11.7852 18.634C12.5586 19.1024 13.3983 19.4354 14.269 19.6269L11.8776 21.9352C11.3888 22.4076 11.3888 23.1734 11.8781 23.6457C12.1231 23.8817 12.4435 23.9998 12.7639 23.9998C13.0848 23.9998 13.4058 23.8817 13.6507 23.6457L15.9996 21.3774L18.3505 23.6457C18.8393 24.1181 19.6324 24.1181 20.1218 23.6457C20.6116 23.1734 20.6116 22.4071 20.1218 21.9352L17.7306 19.6269Z");
     			attr_dev(path1, "fill", "#245081");
-    			add_location(path1, file$d, 125, 14, 4583);
+    			add_location(path1, file$d, 124, 14, 4502);
     			attr_dev(path2, "fill-rule", "evenodd");
     			attr_dev(path2, "clip-rule", "evenodd");
     			attr_dev(path2, "d", "M15.9891 10.4198C16.9657 10.4198 17.7601 11.1863 17.7601 12.1291C17.7601 13.071 16.9657 13.8381 15.9891 13.8381C15.0133 13.8381 14.2181 13.071 14.2181 12.1291C14.2181 11.1863 15.0133 10.4198 15.9891 10.4198Z");
     			attr_dev(path2, "fill", "#245081");
-    			add_location(path2, file$d, 131, 14, 5702);
+    			add_location(path2, file$d, 130, 14, 5621);
     			attr_dev(svg1, "class", "social-icon svelte-1mq16k6");
     			attr_dev(svg1, "width", "32");
     			attr_dev(svg1, "height", "32");
@@ -1639,25 +1639,25 @@ var app = (function () {
     			attr_dev(svg1, "fill", "none");
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg1, "xmlns:xlink", "http://www.w3.org/1999/xlink");
-    			add_location(svg1, file$d, 116, 12, 4290);
+    			add_location(svg1, file$d, 115, 12, 4209);
     			attr_dev(a3, "href", "/");
-    			add_location(a3, file$d, 115, 10, 4264);
-    			add_location(li1, file$d, 114, 8, 4248);
+    			add_location(a3, file$d, 114, 10, 4183);
+    			add_location(li1, file$d, 113, 8, 4167);
     			attr_dev(path3, "fill-rule", "evenodd");
     			attr_dev(path3, "clip-rule", "evenodd");
     			attr_dev(path3, "d", "M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16ZM16.0008 7.46667C13.6833 7.46667 13.3924 7.4768 12.4822 7.51822C11.5737 7.55982 10.9536 7.70365 10.4111 7.91467C9.8498 8.13263 9.37371 8.42419 8.89939 8.89868C8.42472 9.373 8.13316 9.84909 7.91449 10.4102C7.70294 10.9529 7.55893 11.5732 7.51804 12.4813C7.47733 13.3915 7.46667 13.6826 7.46667 16.0001C7.46667 18.3176 7.47698 18.6076 7.51822 19.5178C7.56 20.4263 7.70382 21.0464 7.91467 21.5889C8.13281 22.1502 8.42437 22.6263 8.89886 23.1006C9.373 23.5753 9.84909 23.8675 10.41 24.0855C10.9529 24.2965 11.5732 24.4404 12.4815 24.482C13.3917 24.5234 13.6824 24.5335 15.9997 24.5335C18.3174 24.5335 18.6074 24.5234 19.5176 24.482C20.4261 24.4404 21.0469 24.2965 21.5898 24.0855C22.1509 23.8675 22.6263 23.5753 23.1004 23.1006C23.5751 22.6263 23.8667 22.1502 24.0853 21.5891C24.2951 21.0464 24.4391 20.4261 24.4818 19.518C24.5227 18.6078 24.5333 18.3176 24.5333 16.0001C24.5333 13.6826 24.5227 13.3917 24.4818 12.4815C24.4391 11.573 24.2951 10.9529 24.0853 10.4103C23.8667 9.84909 23.5751 9.373 23.1004 8.89868C22.6258 8.42401 22.1511 8.13245 21.5893 7.91467C21.0453 7.70365 20.4248 7.55982 19.5164 7.51822C18.6062 7.4768 18.3164 7.46667 15.9981 7.46667H16.0008Z");
     			attr_dev(path3, "fill", "#245081");
-    			add_location(path3, file$d, 151, 14, 6456);
+    			add_location(path3, file$d, 150, 14, 6375);
     			attr_dev(path4, "fill-rule", "evenodd");
     			attr_dev(path4, "clip-rule", "evenodd");
     			attr_dev(path4, "d", "M15.2353 9.00446C15.4625 9.00411 15.716 9.00446 16.0008 9.00446C18.2792 9.00446 18.5493 9.01264 19.449 9.05353C20.281 9.09157 20.7326 9.2306 21.0334 9.3474C21.4316 9.50207 21.7155 9.68696 22.014 9.98563C22.3127 10.2843 22.4976 10.5687 22.6526 10.967C22.7694 11.2674 22.9086 11.719 22.9465 12.551C22.9874 13.4506 22.9963 13.7208 22.9963 15.9981C22.9963 18.2755 22.9874 18.5457 22.9465 19.4453C22.9084 20.2773 22.7694 20.7288 22.6526 21.0293C22.4979 21.4275 22.3127 21.7111 22.014 22.0096C21.7153 22.3082 21.4318 22.4931 21.0334 22.6478C20.7329 22.7651 20.281 22.9038 19.449 22.9418C18.5494 22.9827 18.2792 22.9916 16.0008 22.9916C13.7222 22.9916 13.4522 22.9827 12.5526 22.9418C11.7206 22.9035 11.269 22.7644 10.968 22.6476C10.5698 22.493 10.2854 22.3081 9.98669 22.0094C9.68802 21.7107 9.50313 21.427 9.34811 21.0286C9.23131 20.7281 9.09211 20.2766 9.05424 19.4446C9.01335 18.545 9.00517 18.2748 9.00517 15.996C9.00517 13.7172 9.01335 13.4484 9.05424 12.5489C9.09228 11.7168 9.23131 11.2653 9.34811 10.9645C9.50278 10.5663 9.68802 10.2818 9.98669 9.98314C10.2854 9.68447 10.5698 9.49958 10.968 9.34455C11.2688 9.22722 11.7206 9.08855 12.5526 9.05033C13.3398 9.01477 13.6449 9.0041 15.2353 9.00233V9.00446ZM20.5559 10.4214C19.9905 10.4214 19.5319 10.8795 19.5319 11.445C19.5319 12.0104 19.9905 12.469 20.5559 12.469C21.1212 12.469 21.5799 12.0104 21.5799 11.445C21.5799 10.8797 21.1212 10.4214 20.5559 10.4214ZM16.0008 11.6178C13.5807 11.6178 11.6185 13.58 11.6185 16.0001C11.6185 18.4202 13.5807 20.3815 16.0008 20.3815C18.4209 20.3815 20.3824 18.4202 20.3824 16.0001C20.3824 13.58 18.4209 11.6178 16.0008 11.6178Z");
     			attr_dev(path4, "fill", "#245081");
-    			add_location(path4, file$d, 157, 14, 7894);
+    			add_location(path4, file$d, 156, 14, 7813);
     			attr_dev(path5, "fill-rule", "evenodd");
     			attr_dev(path5, "clip-rule", "evenodd");
     			attr_dev(path5, "d", "M16.0008 13.1556C17.5717 13.1556 18.8453 14.4291 18.8453 16.0001C18.8453 17.5709 17.5717 18.8446 16.0008 18.8446C14.4298 18.8446 13.1563 17.5709 13.1563 16.0001C13.1563 14.4291 14.4298 13.1556 16.0008 13.1556Z");
     			attr_dev(path5, "fill", "#245081");
-    			add_location(path5, file$d, 163, 14, 9675);
+    			add_location(path5, file$d, 162, 14, 9594);
     			attr_dev(svg2, "class", "social-icon svelte-1mq16k6");
     			attr_dev(svg2, "width", "32");
     			attr_dev(svg2, "height", "32");
@@ -1665,20 +1665,20 @@ var app = (function () {
     			attr_dev(svg2, "fill", "none");
     			attr_dev(svg2, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg2, "xmlns:xlink", "http://www.w3.org/1999/xlink");
-    			add_location(svg2, file$d, 142, 12, 6163);
+    			add_location(svg2, file$d, 141, 12, 6082);
     			attr_dev(a4, "href", "/");
-    			add_location(a4, file$d, 141, 10, 6137);
-    			add_location(li2, file$d, 140, 8, 6121);
+    			add_location(a4, file$d, 140, 10, 6056);
+    			add_location(li2, file$d, 139, 8, 6040);
     			attr_dev(ul1, "class", "social svelte-1mq16k6");
-    			add_location(ul1, file$d, 93, 6, 2059);
+    			add_location(ul1, file$d, 92, 6, 1978);
     			attr_dev(div1, "class", "content svelte-1mq16k6");
     			add_location(div1, file$d, 72, 4, 1315);
-    			add_location(span1, file$d, 175, 6, 10143);
+    			add_location(span1, file$d, 174, 6, 10062);
     			attr_dev(a5, "class", "privacy svelte-1mq16k6");
     			attr_dev(a5, "href", /*privacy*/ ctx[5].url);
-    			add_location(a5, file$d, 176, 6, 10175);
+    			add_location(a5, file$d, 175, 6, 10094);
     			attr_dev(div2, "class", "copy svelte-1mq16k6");
-    			add_location(div2, file$d, 174, 4, 10117);
+    			add_location(div2, file$d, 173, 4, 10036);
     			attr_dev(div3, "class", "wrapper");
     			add_location(div3, file$d, 71, 2, 1288);
     			attr_dev(footer, "class", "footer svelte-1mq16k6");
@@ -2007,75 +2007,75 @@ var app = (function () {
     			t29 = space();
     			img4 = element("img");
     			attr_dev(img0, "class", "text-block-bg svelte-ywyavb");
-    			if (!src_url_equal(img0.src, img0_src_value = "../content/GuestHouses/pencil-image.png")) attr_dev(img0, "src", img0_src_value);
+    			if (!src_url_equal(img0.src, img0_src_value = "content/GuestHouses/pencil-image.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			add_location(img0, file$c, 9, 8, 285);
+    			add_location(img0, file$c, 9, 8, 282);
     			attr_dev(h3, "class", "section__title svelte-ywyavb");
-    			add_location(h3, file$c, 14, 8, 419);
+    			add_location(h3, file$c, 14, 8, 413);
     			attr_dev(p0, "class", "svelte-ywyavb");
-    			add_location(p0, file$c, 15, 8, 475);
+    			add_location(p0, file$c, 15, 8, 469);
     			attr_dev(img1, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img1.src, img1_src_value = "../content/GuestHouses/home-1.svg")) attr_dev(img1, "src", img1_src_value);
+    			if (!src_url_equal(img1.src, img1_src_value = "content/GuestHouses/home-1.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			add_location(img1, file$c, 19, 12, 615);
+    			add_location(img1, file$c, 19, 12, 609);
     			attr_dev(span0, "class", "houses__count svelte-ywyavb");
-    			add_location(span0, file$c, 26, 14, 846);
+    			add_location(span0, file$c, 26, 14, 837);
     			attr_dev(span1, "class", "houses__title");
-    			add_location(span1, file$c, 24, 12, 762);
+    			add_location(span1, file$c, 24, 12, 753);
     			attr_dev(span2, "class", "houses__dots svelte-ywyavb");
-    			add_location(span2, file$c, 28, 12, 925);
+    			add_location(span2, file$c, 28, 12, 916);
     			attr_dev(span3, "class", "houses__price svelte-ywyavb");
-    			add_location(span3, file$c, 29, 12, 968);
+    			add_location(span3, file$c, 29, 12, 959);
     			attr_dev(li0, "class", "houses__item svelte-ywyavb");
-    			add_location(li0, file$c, 18, 10, 576);
+    			add_location(li0, file$c, 18, 10, 570);
     			attr_dev(img2, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img2.src, img2_src_value = "../content/GuestHouses/home-2.svg")) attr_dev(img2, "src", img2_src_value);
+    			if (!src_url_equal(img2.src, img2_src_value = "content/GuestHouses/home-2.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			add_location(img2, file$c, 33, 12, 1086);
+    			add_location(img2, file$c, 33, 12, 1077);
     			attr_dev(span4, "class", "houses__count svelte-ywyavb");
-    			add_location(span4, file$c, 40, 14, 1318);
+    			add_location(span4, file$c, 40, 14, 1306);
     			attr_dev(span5, "class", "houses__title");
-    			add_location(span5, file$c, 38, 12, 1233);
+    			add_location(span5, file$c, 38, 12, 1221);
     			attr_dev(span6, "class", "houses__dots svelte-ywyavb");
-    			add_location(span6, file$c, 42, 12, 1397);
+    			add_location(span6, file$c, 42, 12, 1385);
     			attr_dev(span7, "class", "houses__price svelte-ywyavb");
-    			add_location(span7, file$c, 43, 12, 1440);
+    			add_location(span7, file$c, 43, 12, 1428);
     			attr_dev(li1, "class", "houses__item svelte-ywyavb");
-    			add_location(li1, file$c, 32, 10, 1047);
+    			add_location(li1, file$c, 32, 10, 1038);
     			attr_dev(img3, "class", "houses__icon svelte-ywyavb");
-    			if (!src_url_equal(img3.src, img3_src_value = "../content/GuestHouses/home-2.svg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "content/GuestHouses/home-2.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
-    			add_location(img3, file$c, 47, 12, 1559);
+    			add_location(img3, file$c, 47, 12, 1547);
     			attr_dev(span8, "class", "houses__count svelte-ywyavb");
-    			add_location(span8, file$c, 54, 14, 1795);
+    			add_location(span8, file$c, 54, 14, 1780);
     			attr_dev(span9, "class", "houses__title");
-    			add_location(span9, file$c, 52, 12, 1706);
+    			add_location(span9, file$c, 52, 12, 1691);
     			attr_dev(span10, "class", "houses__dots svelte-ywyavb");
-    			add_location(span10, file$c, 56, 12, 1874);
+    			add_location(span10, file$c, 56, 12, 1859);
     			attr_dev(span11, "class", "houses__price svelte-ywyavb");
-    			add_location(span11, file$c, 57, 12, 1917);
+    			add_location(span11, file$c, 57, 12, 1902);
     			attr_dev(li2, "class", "houses__item svelte-ywyavb");
-    			add_location(li2, file$c, 46, 10, 1520);
+    			add_location(li2, file$c, 46, 10, 1508);
     			attr_dev(ul, "class", "houses__list svelte-ywyavb");
-    			add_location(ul, file$c, 17, 8, 539);
+    			add_location(ul, file$c, 17, 8, 533);
     			attr_dev(p1, "class", "svelte-ywyavb");
-    			add_location(p1, file$c, 61, 8, 2010);
+    			add_location(p1, file$c, 61, 8, 1995);
     			attr_dev(a, "class", "more-link svelte-ywyavb");
     			attr_dev(a, "href", "/");
-    			add_location(a, file$c, 67, 8, 2326);
+    			add_location(a, file$c, 67, 8, 2311);
     			attr_dev(div0, "class", "text-block svelte-ywyavb");
-    			add_location(div0, file$c, 8, 6, 251);
+    			add_location(div0, file$c, 8, 6, 248);
     			attr_dev(img4, "class", "image svelte-ywyavb");
-    			if (!src_url_equal(img4.src, img4_src_value = "../content/GuestHouses/content-image.jpg")) attr_dev(img4, "src", img4_src_value);
+    			if (!src_url_equal(img4.src, img4_src_value = "content/GuestHouses/content-image.jpg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "");
-    			add_location(img4, file$c, 69, 6, 2391);
+    			add_location(img4, file$c, 69, 6, 2376);
     			attr_dev(article, "class", "content svelte-ywyavb");
-    			add_location(article, file$c, 7, 4, 218);
+    			add_location(article, file$c, 7, 4, 215);
     			attr_dev(div1, "class", "wrapper");
-    			add_location(div1, file$c, 6, 2, 191);
+    			add_location(div1, file$c, 6, 2, 188);
     			attr_dev(section, "class", "section guest-houses svelte-ywyavb");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$c, 5, 0, 110);
+    			add_location(section, file$c, 5, 0, 107);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2153,7 +2153,7 @@ var app = (function () {
     function instance$d($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('GuestHouses', slots, []);
-    	let bgUrl = "../content/GuestHouses/bg.jpg";
+    	let bgUrl = "content/GuestHouses/bg.jpg";
     	let sectionTitle = "Гостевые дома";
     	const writable_props = [];
 
@@ -2336,87 +2336,87 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "Подробнее";
     			attr_dev(img0, "class", "image svelte-k69dlo");
-    			if (!src_url_equal(img0.src, img0_src_value = "../content/Hotel/content-image.jpg")) attr_dev(img0, "src", img0_src_value);
+    			if (!src_url_equal(img0.src, img0_src_value = "content/Hotel/content-image.jpg")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
-    			add_location(img0, file$b, 8, 6, 234);
+    			add_location(img0, file$b, 8, 6, 231);
     			attr_dev(h3, "class", "section__title svelte-k69dlo");
-    			add_location(h3, file$b, 14, 8, 379);
-    			add_location(p0, file$b, 15, 8, 435);
+    			add_location(h3, file$b, 14, 8, 373);
+    			add_location(p0, file$b, 15, 8, 429);
     			attr_dev(img1, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img1.src, img1_src_value = "../content/Hotel/room-1.svg")) attr_dev(img1, "src", img1_src_value);
+    			if (!src_url_equal(img1.src, img1_src_value = "content/Hotel/room-1.svg")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			add_location(img1, file$b, 22, 12, 679);
+    			add_location(img1, file$b, 22, 12, 673);
     			attr_dev(span0, "class", "rooms__title");
-    			add_location(span0, file$b, 23, 12, 761);
+    			add_location(span0, file$b, 23, 12, 752);
     			attr_dev(span1, "class", "rooms__dots svelte-k69dlo");
-    			add_location(span1, file$b, 24, 12, 824);
+    			add_location(span1, file$b, 24, 12, 815);
     			attr_dev(span2, "class", "rooms__price svelte-k69dlo");
-    			add_location(span2, file$b, 25, 12, 866);
+    			add_location(span2, file$b, 25, 12, 857);
     			attr_dev(li0, "class", "rooms__item svelte-k69dlo");
-    			add_location(li0, file$b, 21, 10, 641);
+    			add_location(li0, file$b, 21, 10, 635);
     			attr_dev(img2, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img2.src, img2_src_value = "../content/Hotel/room-2.svg")) attr_dev(img2, "src", img2_src_value);
+    			if (!src_url_equal(img2.src, img2_src_value = "content/Hotel/room-2.svg")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			add_location(img2, file$b, 29, 12, 976);
+    			add_location(img2, file$b, 29, 12, 967);
     			attr_dev(span3, "class", "rooms__title");
-    			add_location(span3, file$b, 30, 12, 1058);
+    			add_location(span3, file$b, 30, 12, 1046);
     			attr_dev(span4, "class", "rooms__dots svelte-k69dlo");
-    			add_location(span4, file$b, 31, 12, 1123);
+    			add_location(span4, file$b, 31, 12, 1111);
     			attr_dev(span5, "class", "rooms__price svelte-k69dlo");
-    			add_location(span5, file$b, 32, 12, 1165);
+    			add_location(span5, file$b, 32, 12, 1153);
     			attr_dev(li1, "class", "rooms__item svelte-k69dlo");
-    			add_location(li1, file$b, 28, 10, 938);
+    			add_location(li1, file$b, 28, 10, 929);
     			attr_dev(img3, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img3.src, img3_src_value = "../content/Hotel/room-3.svg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "content/Hotel/room-3.svg")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
-    			add_location(img3, file$b, 36, 12, 1273);
+    			add_location(img3, file$b, 36, 12, 1261);
     			attr_dev(span6, "class", "rooms__title");
-    			add_location(span6, file$b, 37, 12, 1355);
+    			add_location(span6, file$b, 37, 12, 1340);
     			attr_dev(span7, "class", "rooms__dots svelte-k69dlo");
-    			add_location(span7, file$b, 38, 12, 1420);
+    			add_location(span7, file$b, 38, 12, 1405);
     			attr_dev(span8, "class", "rooms__price svelte-k69dlo");
-    			add_location(span8, file$b, 39, 12, 1462);
+    			add_location(span8, file$b, 39, 12, 1447);
     			attr_dev(li2, "class", "rooms__item svelte-k69dlo");
-    			add_location(li2, file$b, 35, 10, 1235);
+    			add_location(li2, file$b, 35, 10, 1223);
     			attr_dev(img4, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img4.src, img4_src_value = "../content/Hotel/room-4.svg")) attr_dev(img4, "src", img4_src_value);
+    			if (!src_url_equal(img4.src, img4_src_value = "content/Hotel/room-4.svg")) attr_dev(img4, "src", img4_src_value);
     			attr_dev(img4, "alt", "");
-    			add_location(img4, file$b, 43, 12, 1570);
+    			add_location(img4, file$b, 43, 12, 1555);
     			attr_dev(span9, "class", "rooms__title");
-    			add_location(span9, file$b, 44, 12, 1652);
+    			add_location(span9, file$b, 44, 12, 1634);
     			attr_dev(span10, "class", "rooms__dots svelte-k69dlo");
-    			add_location(span10, file$b, 45, 12, 1717);
+    			add_location(span10, file$b, 45, 12, 1699);
     			attr_dev(span11, "class", "rooms__price svelte-k69dlo");
-    			add_location(span11, file$b, 46, 12, 1759);
+    			add_location(span11, file$b, 46, 12, 1741);
     			attr_dev(li3, "class", "rooms__item svelte-k69dlo");
-    			add_location(li3, file$b, 42, 10, 1532);
+    			add_location(li3, file$b, 42, 10, 1517);
     			attr_dev(img5, "class", "rooms__icon svelte-k69dlo");
-    			if (!src_url_equal(img5.src, img5_src_value = "../content/Hotel/room-lux.svg")) attr_dev(img5, "src", img5_src_value);
+    			if (!src_url_equal(img5.src, img5_src_value = "content/Hotel/room-lux.svg")) attr_dev(img5, "src", img5_src_value);
     			attr_dev(img5, "alt", "");
-    			add_location(img5, file$b, 50, 12, 1867);
+    			add_location(img5, file$b, 50, 12, 1849);
     			attr_dev(span12, "class", "rooms__title");
-    			add_location(span12, file$b, 55, 12, 2009);
+    			add_location(span12, file$b, 55, 12, 1988);
     			attr_dev(span13, "class", "rooms__dots svelte-k69dlo");
-    			add_location(span13, file$b, 56, 12, 2069);
+    			add_location(span13, file$b, 56, 12, 2048);
     			attr_dev(span14, "class", "rooms__price svelte-k69dlo");
-    			add_location(span14, file$b, 57, 12, 2111);
+    			add_location(span14, file$b, 57, 12, 2090);
     			attr_dev(li4, "class", "rooms__item svelte-k69dlo");
-    			add_location(li4, file$b, 49, 10, 1829);
+    			add_location(li4, file$b, 49, 10, 1811);
     			attr_dev(ul, "class", "rooms__list svelte-k69dlo");
-    			add_location(ul, file$b, 20, 8, 605);
-    			add_location(p1, file$b, 61, 8, 2196);
+    			add_location(ul, file$b, 20, 8, 599);
+    			add_location(p1, file$b, 61, 8, 2175);
     			attr_dev(a, "class", "more-link svelte-k69dlo");
     			attr_dev(a, "href", "/");
-    			add_location(a, file$b, 67, 8, 2540);
+    			add_location(a, file$b, 67, 8, 2519);
     			attr_dev(div0, "class", "text-block svelte-k69dlo");
-    			add_location(div0, file$b, 13, 6, 345);
+    			add_location(div0, file$b, 13, 6, 339);
     			attr_dev(article, "class", "content svelte-k69dlo");
-    			add_location(article, file$b, 7, 4, 201);
+    			add_location(article, file$b, 7, 4, 198);
     			attr_dev(div1, "class", "wrapper");
-    			add_location(div1, file$b, 6, 2, 174);
+    			add_location(div1, file$b, 6, 2, 171);
     			attr_dev(section, "class", "section hotel svelte-k69dlo");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$b, 5, 0, 100);
+    			add_location(section, file$b, 5, 0, 97);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2504,7 +2504,7 @@ var app = (function () {
     function instance$c($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Hotel', slots, []);
-    	let bgUrl = "../content/Hotel/bg.jpg";
+    	let bgUrl = "content/Hotel/bg.jpg";
     	let sectionTitle = "Гостиница";
     	const writable_props = [];
 
@@ -3291,9 +3291,9 @@ var app = (function () {
     			t1 = space();
     			attr_dev(a, "class", "menu__link svelte-efysdv");
     			attr_dev(a, "href", /*menuItem*/ ctx[6].url);
-    			add_location(a, file$7, 47, 14, 1338);
+    			add_location(a, file$7, 47, 14, 1337);
     			attr_dev(li, "class", "menu__item");
-    			add_location(li, file$7, 46, 12, 1299);
+    			add_location(li, file$7, 46, 12, 1298);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -3337,7 +3337,7 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			create_component(asidemenu.$$.fragment);
-    			add_location(div, file$7, 61, 2, 1624);
+    			add_location(div, file$7, 61, 2, 1623);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -3422,20 +3422,20 @@ var app = (function () {
     			if_block_anchor = empty();
     			if (!src_url_equal(img.src, img_src_value = /*src*/ ctx[4])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*altLogo*/ ctx[0]);
-    			add_location(img, file$7, 40, 8, 1144);
+    			add_location(img, file$7, 40, 8, 1143);
     			attr_dev(a, "class", "logo");
     			attr_dev(a, "href", "/");
-    			add_location(a, file$7, 39, 6, 1109);
+    			add_location(a, file$7, 39, 6, 1108);
     			attr_dev(ul, "class", "menu__list svelte-efysdv");
-    			add_location(ul, file$7, 44, 8, 1221);
+    			add_location(ul, file$7, 44, 8, 1220);
     			attr_dev(nav, "class", "menu svelte-efysdv");
-    			add_location(nav, file$7, 43, 6, 1193);
+    			add_location(nav, file$7, 43, 6, 1192);
     			attr_dev(div0, "class", "header-inner svelte-efysdv");
-    			add_location(div0, file$7, 38, 4, 1075);
+    			add_location(div0, file$7, 38, 4, 1074);
     			attr_dev(div1, "class", "wrapper");
-    			add_location(div1, file$7, 37, 2, 1048);
+    			add_location(div1, file$7, 37, 2, 1047);
     			attr_dev(header, "class", "header svelte-efysdv");
-    			add_location(header, file$7, 36, 0, 1021);
+    			add_location(header, file$7, 36, 0, 1020);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3563,7 +3563,7 @@ var app = (function () {
     		document.body.classList.toggle("noscroll");
     	};
 
-    	let src = "/images/logo-white.svg";
+    	let src = "images/logo-white.svg";
     	let { altLogo = "Logo" } = $$props;
 
     	let menuItems = [
@@ -3704,7 +3704,7 @@ var app = (function () {
     			attr_dev(div1, "class", "shadow svelte-1ms9p8u");
     			add_location(div1, file$6, 20, 2, 618);
     			attr_dev(img, "class", "down-btn__icon svelte-1ms9p8u");
-    			if (!src_url_equal(img.src, img_src_value = "../images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
     			add_location(img, file$6, 23, 4, 694);
     			attr_dev(a, "class", "down-btn svelte-1ms9p8u");
@@ -3712,14 +3712,14 @@ var app = (function () {
     			add_location(a, file$6, 22, 2, 646);
     			if (!src_url_equal(source.src, source_src_value = /*bgVideoUrl*/ ctx[4])) attr_dev(source, "src", source_src_value);
     			attr_dev(source, "type", "video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"");
-    			add_location(source, file$6, 27, 4, 849);
+    			add_location(source, file$6, 27, 4, 846);
     			attr_dev(video, "width", "100%");
     			attr_dev(video, "height", "100%");
     			attr_dev(video, "poster", /*poster*/ ctx[3]);
     			video.autoplay = true;
     			video.muted = true;
     			video.loop = true;
-    			add_location(video, file$6, 26, 2, 780);
+    			add_location(video, file$6, 26, 2, 777);
     			attr_dev(div2, "class", "main svelte-1ms9p8u");
     			add_location(div2, file$6, 12, 0, 437);
     		},
@@ -9915,7 +9915,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = `${/*sectionTitle*/ ctx[1]}`;
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$4, 33, 8, 1196);
+    			add_location(span, file$4, 33, 8, 1187);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -9989,24 +9989,24 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*post*/ ctx[3].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*post*/ ctx[3].title);
     			attr_dev(img, "class", "svelte-1c3u35o");
-    			add_location(img, file$4, 40, 14, 1415);
+    			add_location(img, file$4, 40, 14, 1406);
     			attr_dev(div0, "class", "news-img svelte-1c3u35o");
-    			add_location(div0, file$4, 39, 12, 1377);
+    			add_location(div0, file$4, 39, 12, 1368);
     			attr_dev(div1, "class", "meta svelte-1c3u35o");
-    			add_location(div1, file$4, 42, 12, 1488);
+    			add_location(div1, file$4, 42, 12, 1479);
     			attr_dev(a0, "class", "news-title svelte-1c3u35o");
     			attr_dev(a0, "href", "/");
-    			add_location(a0, file$4, 46, 18, 1635);
-    			add_location(h4, file$4, 46, 14, 1631);
+    			add_location(a0, file$4, 46, 18, 1626);
+    			add_location(h4, file$4, 46, 14, 1622);
     			attr_dev(p, "class", "news-descr svelte-1c3u35o");
-    			add_location(p, file$4, 47, 14, 1703);
+    			add_location(p, file$4, 47, 14, 1694);
     			attr_dev(a1, "class", "more-link");
     			attr_dev(a1, "href", "/");
-    			add_location(a1, file$4, 48, 14, 1757);
+    			add_location(a1, file$4, 48, 14, 1748);
     			attr_dev(div2, "class", "news-content svelte-1c3u35o");
-    			add_location(div2, file$4, 45, 12, 1589);
+    			add_location(div2, file$4, 45, 12, 1580);
     			attr_dev(article, "class", "news-box svelte-1c3u35o");
-    			add_location(article, file$4, 38, 10, 1337);
+    			add_location(article, file$4, 38, 10, 1328);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, article, anchor);
@@ -10098,15 +10098,15 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "news-block svelte-1c3u35o");
-    			add_location(div0, file$4, 36, 6, 1271);
+    			add_location(div0, file$4, 36, 6, 1262);
     			attr_dev(div1, "class", "content svelte-1c3u35o");
-    			add_location(div1, file$4, 31, 4, 1141);
+    			add_location(div1, file$4, 31, 4, 1132);
     			attr_dev(div2, "class", "wrapper");
-    			add_location(div2, file$4, 30, 2, 1114);
+    			add_location(div2, file$4, 30, 2, 1105);
     			attr_dev(section, "class", "section news svelte-1c3u35o");
     			attr_dev(section, "id", "newsBlog");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$4, 25, 0, 1016);
+    			add_location(section, file$4, 25, 0, 1007);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10203,7 +10203,7 @@ var app = (function () {
     function instance$5($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('News', slots, []);
-    	let bgUrl = "../content/News/bg.jpg";
+    	let bgUrl = "content/News/bg.jpg";
     	let sectionTitle = "Новостной блог";
 
     	let news = [
@@ -10211,13 +10211,13 @@ var app = (function () {
     			title: "Долгая дарит горнолыжникам ски-пасс",
     			date: "2021-11-01T21:40:00",
     			descr: "В эту пятницу, 3 декабря, на Долгой будет дан старт специальной акции для горнолыжников и сноубордистов – «Ски-пасс в подарок». Она продлится до 29 декабря включительно и повторится в конце сезона – с 1 по 29 марта 2022.",
-    			img: "../content/News/news-1.jpg"
+    			img: "content/News/news-1.jpg"
     		},
     		{
     			title: "Открытие горнолыжного сезона 2021",
     			date: "2021-10-20T14:12:00",
     			descr: "В преддверии главной премьеры нового сезона мы начинаем открывать тестовое катание по ограниченному количеству трасс, которые пригодны для катания в самом начале сезона. Официальное открытие состоится 9 декабря.",
-    			img: "../content/News/news-2.jpg"
+    			img: "content/News/news-2.jpg"
     		}
     	];
 
@@ -10274,7 +10274,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = `${/*sectionTitle*/ ctx[1]}`;
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$3, 11, 8, 359);
+    			add_location(span, file$3, 11, 8, 356);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -10393,89 +10393,89 @@ var app = (function () {
     			span2 = element("span");
     			span2.textContent = "Подарочные сертификаты";
     			attr_dev(p0, "class", "svelte-j0uakj");
-    			add_location(p0, file$3, 15, 8, 468);
+    			add_location(p0, file$3, 15, 8, 465);
     			attr_dev(p1, "class", "svelte-j0uakj");
-    			add_location(p1, file$3, 22, 8, 836);
+    			add_location(p1, file$3, 22, 8, 833);
     			attr_dev(p2, "class", "svelte-j0uakj");
-    			add_location(p2, file$3, 27, 8, 1063);
+    			add_location(p2, file$3, 27, 8, 1060);
     			attr_dev(p3, "class", "svelte-j0uakj");
-    			add_location(p3, file$3, 31, 8, 1238);
+    			add_location(p3, file$3, 31, 8, 1235);
     			attr_dev(div0, "class", "text-block svelte-j0uakj");
-    			add_location(div0, file$3, 14, 6, 434);
+    			add_location(div0, file$3, 14, 6, 431);
     			attr_dev(path0, "d", "M24 33C24 30.2044 24 28.8065 24.4567 27.7039C25.0657 26.2337 26.2337 25.0657 27.7039 24.4567C28.8065 24 30.2044 24 33 24C35.7956 24 37.1935 24 38.2961 24.4567C39.7663 25.0657 40.9343 26.2337 41.5433 27.7039C42 28.8065 42 30.2044 42 33C42 35.7956 42 37.1935 41.5433 38.2961C40.9343 39.7663 39.7663 40.9343 38.2961 41.5433C37.1935 42 35.7956 42 33 42C30.2044 42 28.8065 42 27.7039 41.5433C26.2337 40.9343 25.0657 39.7663 24.4567 38.2961C24 37.1935 24 35.7956 24 33Z");
     			attr_dev(path0, "stroke", "#DD4141");
     			attr_dev(path0, "stroke-width", "2.5");
-    			add_location(path0, file$3, 48, 14, 1761);
+    			add_location(path0, file$3, 48, 14, 1758);
     			attr_dev(path1, "d", "M54 33C54 30.2044 54 28.8065 54.4567 27.7039C55.0657 26.2337 56.2337 25.0657 57.7039 24.4567C58.8065 24 60.2044 24 63 24C65.7956 24 67.1935 24 68.2961 24.4567C69.7663 25.0657 70.9343 26.2337 71.5433 27.7039C72 28.8065 72 30.2044 72 33C72 35.7956 72 37.1935 71.5433 38.2961C70.9343 39.7663 69.7663 40.9343 68.2961 41.5433C67.1935 42 65.7956 42 63 42C60.2044 42 58.8065 42 57.7039 41.5433C56.2337 40.9343 55.0657 39.7663 54.4567 38.2961C54 37.1935 54 35.7956 54 33Z");
     			attr_dev(path1, "stroke", "#DD4141");
     			attr_dev(path1, "stroke-width", "2.5");
-    			add_location(path1, file$3, 53, 14, 2355);
+    			add_location(path1, file$3, 53, 14, 2352);
     			attr_dev(path2, "d", "M24 63C24 60.2044 24 58.8065 24.4567 57.7039C25.0657 56.2337 26.2337 55.0657 27.7039 54.4567C28.8065 54 30.2044 54 33 54C35.7956 54 37.1935 54 38.2961 54.4567C39.7663 55.0657 40.9343 56.2337 41.5433 57.7039C42 58.8065 42 60.2044 42 63C42 65.7956 42 67.1935 41.5433 68.2961C40.9343 69.7663 39.7663 70.9343 38.2961 71.5433C37.1935 72 35.7956 72 33 72C30.2044 72 28.8065 72 27.7039 71.5433C26.2337 70.9343 25.0657 69.7663 24.4567 68.2961C24 67.1935 24 65.7956 24 63Z");
     			attr_dev(path2, "stroke", "#DD4141");
     			attr_dev(path2, "stroke-width", "2.5");
-    			add_location(path2, file$3, 58, 14, 2949);
+    			add_location(path2, file$3, 58, 14, 2946);
     			attr_dev(path3, "d", "M54 63C54 60.2044 54 58.8065 54.4567 57.7039C55.0657 56.2337 56.2337 55.0657 57.7039 54.4567C58.8065 54 60.2044 54 63 54C65.7956 54 67.1935 54 68.2961 54.4567C69.7663 55.0657 70.9343 56.2337 71.5433 57.7039C72 58.8065 72 60.2044 72 63C72 65.7956 72 67.1935 71.5433 68.2961C70.9343 69.7663 69.7663 70.9343 68.2961 71.5433C67.1935 72 65.7956 72 63 72C60.2044 72 58.8065 72 57.7039 71.5433C56.2337 70.9343 55.0657 69.7663 54.4567 68.2961C54 67.1935 54 65.7956 54 63Z");
     			attr_dev(path3, "stroke", "#DD4141");
     			attr_dev(path3, "stroke-width", "2.5");
-    			add_location(path3, file$3, 63, 14, 3543);
+    			add_location(path3, file$3, 63, 14, 3540);
     			attr_dev(svg0, "class", "icon icon-services svelte-j0uakj");
     			attr_dev(svg0, "width", "96");
     			attr_dev(svg0, "height", "96");
     			attr_dev(svg0, "viewBox", "0 0 96 96");
     			attr_dev(svg0, "fill", "none");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg0, file$3, 40, 12, 1519);
+    			add_location(svg0, file$3, 40, 12, 1516);
     			attr_dev(span0, "class", "title svelte-j0uakj");
-    			add_location(span0, file$3, 69, 12, 4155);
+    			add_location(span0, file$3, 69, 12, 4152);
     			attr_dev(a0, "class", "link svelte-j0uakj");
     			attr_dev(a0, "href", "/");
-    			add_location(a0, file$3, 39, 10, 1480);
+    			add_location(a0, file$3, 39, 10, 1477);
     			attr_dev(li0, "class", "item svelte-j0uakj");
-    			add_location(li0, file$3, 38, 8, 1451);
+    			add_location(li0, file$3, 38, 8, 1448);
     			attr_dev(path4, "d", "M29.7489 70.2317L30.4022 69.166L29.7489 70.2317ZM25.789 66.27L26.8549 65.6171L25.789 66.27ZM70.2325 66.27L69.1665 65.6171L70.2325 66.27ZM66.2725 70.2317L65.6192 69.166L66.2725 70.2317ZM66.2725 32.9683L65.6192 34.034L66.2725 32.9683ZM70.2325 36.93L69.1665 37.5829L70.2325 36.93ZM29.7489 32.9683L30.4022 34.034L29.7489 32.9683ZM25.789 36.93L26.8549 37.5829L25.789 36.93ZM63.548 25.3115L64.4503 24.4464V24.4464L63.548 25.3115ZM28.4456 26.1379L29.2006 27.1342V27.1342L28.4456 26.1379ZM26.0712 28.6144L27.0969 29.3289L26.0712 28.6144ZM64.8032 31.5128H66.0532L66.0532 31.5066L64.8032 31.5128ZM63.2766 51.3228C63.967 51.3228 64.5266 50.7631 64.5266 50.0728C64.5266 49.3824 63.967 48.8228 63.2766 48.8228V51.3228ZM56.7341 48.8228C56.0437 48.8228 55.4841 49.3824 55.4841 50.0728C55.4841 50.7631 56.0437 51.3228 56.7341 51.3228V48.8228ZM44.4123 32.45H51.6091V29.95H44.4123V32.45ZM51.6091 70.75H44.4123V73.25H51.6091V70.75ZM44.4123 70.75C40.4618 70.75 37.5866 70.7487 35.3358 70.5346C33.1037 70.3223 31.615 69.9095 30.4022 69.166L29.0956 71.2974C30.7672 72.3222 32.6838 72.7936 35.0991 73.0233C37.4958 73.2513 40.5102 73.25 44.4123 73.25V70.75ZM22.7714 51.6C22.7714 55.5039 22.7701 58.5196 22.998 60.9172C23.2276 63.3334 23.6988 65.2507 24.723 66.9229L26.8549 65.6171C26.1116 64.4036 25.699 62.914 25.4868 60.6807C25.2728 58.4288 25.2714 55.5523 25.2714 51.6H22.7714ZM30.4022 69.166C28.9565 68.2797 27.7409 67.0636 26.8549 65.6171L24.723 66.9229C25.8151 68.7057 27.3134 70.2048 29.0956 71.2974L30.4022 69.166ZM51.6091 73.25C55.5113 73.25 58.5257 73.2513 60.9223 73.0233C63.3376 72.7936 65.2543 72.3222 66.9259 71.2974L65.6192 69.166C64.4065 69.9095 62.9178 70.3223 60.6856 70.5346C58.4348 70.7487 55.5597 70.75 51.6091 70.75V73.25ZM69.1665 65.6171C68.2805 67.0636 67.0649 68.2797 65.6192 69.166L66.9259 71.2974C68.708 70.2048 70.2064 68.7057 71.2984 66.9229L69.1665 65.6171ZM65.6192 34.034C67.0649 34.9203 68.2805 36.1364 69.1665 37.5829L71.2984 36.2771C70.2064 34.4943 68.708 32.9952 66.9259 31.9026L65.6192 34.034ZM44.4123 29.95C40.5102 29.95 37.4958 29.9487 35.0991 30.1767C32.6838 30.4064 30.7672 30.8778 29.0956 31.9026L30.4022 34.034C31.615 33.2905 33.1037 32.8778 35.3358 32.6654C37.5866 32.4513 40.4618 32.45 44.4123 32.45V29.95ZM25.2714 51.6C25.2714 47.6477 25.2728 44.7712 25.4868 42.5193C25.699 40.286 26.1116 38.7964 26.8549 37.5829L24.723 36.2771C23.6988 37.9493 23.2276 39.8666 22.998 42.2828C22.7701 44.6804 22.7714 47.6961 22.7714 51.6H25.2714ZM29.0956 31.9026C27.3134 32.9952 25.8151 34.4943 24.723 36.2771L26.8549 37.5829C27.7409 36.1364 28.9565 34.9203 30.4022 34.034L29.0956 31.9026ZM43.3402 25.25H56.2193V22.75H43.3402V25.25ZM56.2193 25.25C58.2799 25.25 59.6943 25.2529 60.7564 25.4018C61.777 25.5449 62.2856 25.8009 62.6458 26.1766L64.4503 24.4464C63.5531 23.5106 62.4211 23.1108 61.1036 22.926C59.8276 22.7471 58.2063 22.75 56.2193 22.75V25.25ZM43.3402 22.75C39.3448 22.75 36.2435 22.7481 33.7922 23.0251C31.3142 23.3052 29.3518 23.8829 27.6906 25.1416L29.2006 27.1342C30.3607 26.255 31.8211 25.7638 34.0729 25.5093C36.3513 25.2519 39.2867 25.25 43.3402 25.25V22.75ZM25.2714 44.1495C25.2714 39.9253 25.273 36.8534 25.521 34.4664C25.7668 32.0999 26.2435 30.554 27.0969 29.3289L25.0455 27.8999C23.8491 29.6174 23.301 31.6415 23.0344 34.2081C22.7699 36.7543 22.7714 39.9787 22.7714 44.1495H25.2714ZM27.6906 25.1416C26.6737 25.9123 25.7814 26.8435 25.0455 27.8999L27.0969 29.3289C27.6849 28.4847 28.3952 27.7444 29.2006 27.1342L27.6906 25.1416ZM66.0532 31.5066C66.0452 29.878 66.0097 28.5151 65.8155 27.4005C65.6157 26.2541 65.2312 25.2608 64.4503 24.4464L62.6458 26.1766C62.9701 26.5149 63.2051 26.9831 63.3526 27.8296C63.5056 28.7079 63.5451 29.8693 63.5532 31.5189L66.0532 31.5066ZM22.7714 44.1495C22.7714 46.5105 22.7231 48.6282 22.7719 50.4337L25.271 50.3663C25.2233 48.6015 25.2714 46.5983 25.2714 44.1495H22.7714ZM70.8005 55.3682H56.7341V57.8682H70.8005V55.3682ZM48.9416 50.0728C48.9416 54.3775 52.4299 57.8682 56.7341 57.8682V55.3682C53.8116 55.3682 51.4416 52.9979 51.4416 50.0728H48.9416ZM51.4416 50.0728C51.4416 47.1476 53.8116 44.7773 56.7341 44.7773V42.2773C52.4299 42.2773 48.9416 45.768 48.9416 50.0728H51.4416ZM63.2766 48.8228H56.7341V51.3228H63.2766V48.8228ZM51.6091 32.45C54.9244 32.45 57.4874 32.4505 59.5678 32.579C61.6468 32.7073 63.1493 32.9595 64.3592 33.4192L65.2472 31.0822C63.6916 30.4912 61.898 30.2181 59.7218 30.0837C57.547 29.9495 54.8957 29.95 51.6091 29.95V32.45ZM64.3592 33.4192C64.8143 33.5921 65.2296 33.7951 65.6192 34.034L66.9259 31.9026C66.3966 31.5781 65.8401 31.3075 65.2472 31.0822L64.3592 33.4192ZM63.5532 31.5128V32.2507H66.0532V31.5128H63.5532ZM56.7341 44.7773H71.8666V42.2773H56.7341V44.7773ZM73.25 51.6C73.25 48.2949 73.2505 45.6318 73.1142 43.4494L70.6191 43.6052C70.7494 45.6922 70.75 48.2657 70.75 51.6H73.25ZM73.1142 43.4494C72.9279 40.4667 72.4799 38.206 71.2984 36.2771L69.1665 37.5829C70.0264 38.9867 70.4409 40.7537 70.6191 43.6052L73.1142 43.4494ZM70.75 51.6C70.75 53.4887 70.75 55.1369 70.7257 56.5975L73.2254 56.639C73.25 55.1535 73.25 53.4828 73.25 51.6H70.75ZM70.7257 56.5975C70.6479 61.2868 70.3095 63.751 69.1665 65.6171L71.2984 66.9229C72.8419 64.403 73.1484 61.2771 73.2254 56.639L70.7257 56.5975ZM70.8005 57.8682H71.9756V55.3682H70.8005V57.8682Z");
     			attr_dev(path4, "fill", "#DD4141");
-    			add_location(path4, file$3, 82, 14, 4540);
+    			add_location(path4, file$3, 82, 14, 4537);
     			attr_dev(svg1, "class", "icon icon-price svelte-j0uakj");
     			attr_dev(svg1, "width", "96");
     			attr_dev(svg1, "height", "96");
     			attr_dev(svg1, "viewBox", "0 0 96 96");
     			attr_dev(svg1, "fill", "none");
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg1, file$3, 74, 12, 4301);
+    			add_location(svg1, file$3, 74, 12, 4298);
     			attr_dev(span1, "class", "title svelte-j0uakj");
-    			add_location(span1, file$3, 87, 12, 9868);
+    			add_location(span1, file$3, 87, 12, 9865);
     			attr_dev(a1, "class", "link svelte-j0uakj");
     			attr_dev(a1, "href", "/");
-    			add_location(a1, file$3, 73, 10, 4262);
+    			add_location(a1, file$3, 73, 10, 4259);
     			attr_dev(li1, "class", "item svelte-j0uakj");
-    			add_location(li1, file$3, 72, 8, 4233);
+    			add_location(li1, file$3, 72, 8, 4230);
     			attr_dev(path5, "d", "M33.8078 69.798L33.3102 70.9447L33.8078 69.798ZM27.3134 62.9944L26.151 63.454L27.3134 62.9944ZM68.6866 62.9944L69.849 63.454L68.6866 62.9944ZM62.1922 69.798L62.6898 70.9447L62.1922 69.798ZM26.4 45.555L27.6451 45.6656L27.7063 44.9771L27.1556 44.5592L26.4 45.555ZM66 34.7549V33.5049V34.7549ZM49.8426 32.0888L50.7265 32.9726L49.8426 32.0888ZM54.9338 26.9976L55.8177 27.8815L54.9338 26.9976ZM63.4191 26.9976L62.5352 27.8815L63.4191 26.9976ZM64.0404 34.7549L64.0405 36.0049L64.6784 36.0049L65.0527 35.4883L64.0404 34.7549ZM46.5338 32.0888L45.65 32.9727L46.5338 32.0888ZM41.4427 26.9976L40.5588 27.8815V27.8815L41.4427 26.9976ZM32.9574 26.9976L33.8413 27.8815V27.8815L32.9574 26.9976ZM48 68.3549H49.25H48ZM26.3221 45.4958L25.5552 46.4829H25.5552L26.3221 45.4958ZM69.4449 45.668L68.7264 44.6452L69.4449 45.668ZM44.4 69.5049C41.5864 69.5049 39.5418 69.5042 37.9233 69.3885C36.3171 69.2737 35.2248 69.0503 34.3054 68.6513L33.3102 70.9447C34.5961 71.5027 36.0042 71.7577 37.745 71.8821C39.4734 72.0057 41.6223 72.0049 44.4 72.0049V69.5049ZM25.1501 51.8978C25.1501 54.8103 25.1494 57.0544 25.2669 58.8576C25.3849 60.6709 25.6262 62.1268 26.151 63.454L28.4759 62.5348C28.0872 61.5518 27.8718 60.3881 27.7616 58.6951C27.6507 56.992 27.6501 54.843 27.6501 51.8978H25.1501ZM34.3054 68.6513C31.6801 67.5121 29.5765 65.3186 28.4759 62.5348L26.151 63.454C27.4862 66.8309 30.0548 69.532 33.3102 70.9447L34.3054 68.6513ZM68.35 51.8978C68.35 54.8429 68.3494 56.992 68.2385 58.6951C68.1282 60.3881 67.9128 61.5518 67.5241 62.5348L69.849 63.454C70.3738 62.1268 70.6151 60.6709 70.7332 58.8576C70.8506 57.0543 70.85 54.8102 70.85 51.8978H68.35ZM51.6 72.0049C54.3777 72.0049 56.5266 72.0057 58.255 71.8821C59.9958 71.7577 61.4039 71.5027 62.6898 70.9447L61.6946 68.6513C60.7752 69.0503 59.6829 69.2737 58.0767 69.3885C56.4582 69.5042 54.4136 69.5049 51.6 69.5049V72.0049ZM67.5241 62.5348C66.4235 65.3186 64.3199 67.5121 61.6946 68.6513L62.6898 70.9447C65.9452 69.532 68.5138 66.8309 69.849 63.454L67.5241 62.5348ZM27.6501 51.8978C27.6501 48.4307 27.4859 47.4577 27.6451 45.6656L25.1549 45.4444C24.9842 47.3656 25.1501 48.743 25.1501 51.8978H27.6501ZM66 36.0049C68.6234 36.0049 70.75 38.1316 70.75 40.7549H73.25C73.25 36.7509 70.0041 33.5049 66 33.5049V36.0049ZM30 33.5049C25.9959 33.5049 22.75 36.7509 22.75 40.7549H25.25C25.25 38.1316 27.3766 36.0049 30 36.0049V33.5049ZM50.7265 32.9726L55.8177 27.8815L54.0499 26.1137L48.9588 31.2049L50.7265 32.9726ZM55.8177 27.8815C57.6727 26.0265 60.6802 26.0265 62.5352 27.8815L64.303 26.1137C61.4717 23.2824 56.8812 23.2824 54.0499 26.1137L55.8177 27.8815ZM48.9588 31.2049C48.2019 31.9618 47.1553 33.0942 46.7936 34.4277L49.2064 35.0822C49.3745 34.4625 49.9498 33.7494 50.7265 32.9726L48.9588 31.2049ZM62.5352 27.8815C64.2076 29.5539 64.3728 32.1654 63.0281 34.0216L65.0527 35.4883C67.1067 32.6531 66.8577 28.6684 64.303 26.1137L62.5352 27.8815ZM47.4177 31.2049L42.3266 26.1137L40.5588 27.8815L45.65 32.9727L47.4177 31.2049ZM42.3266 26.1137C39.4953 23.2824 34.9048 23.2824 32.0735 26.1137L33.8413 27.8815C35.6963 26.0265 38.7038 26.0265 40.5588 27.8815L42.3266 26.1137ZM45.65 32.9727C46.2194 33.5421 46.5673 34.2481 46.7936 35.0822L49.2064 34.4277C48.9028 33.3086 48.3819 32.1691 47.4177 31.2049L45.65 32.9727ZM32.0735 26.1137C29.5188 28.6685 29.2698 32.6531 31.3238 35.4883L33.3484 34.0216C32.0037 32.1654 32.1689 29.5539 33.8413 27.8815L32.0735 26.1137ZM46.75 34.755L46.75 68.3549H49.25L49.25 34.755H46.75ZM32.3361 36.0049L48 36.005L48 33.505L32.3361 33.5049L32.3361 36.0049ZM30 45.5049C28.9015 45.5049 27.8932 45.1336 27.089 44.5087L25.5552 46.4829C26.7825 47.4365 28.3266 48.0049 30 48.0049V45.5049ZM27.089 44.5087C25.9677 43.6376 25.25 42.2804 25.25 40.7549H22.75C22.75 43.085 23.8506 45.1586 25.5552 46.4829L27.089 44.5087ZM27.1556 44.5592L27.0777 44.5001L25.5664 46.4916L25.6444 46.5507L27.1556 44.5592ZM51.6 69.5049H48V72.0049H51.6V69.5049ZM48 69.5049H44.4V72.0049H48V69.5049ZM46.75 68.3549L46.75 70.7549L49.25 70.7549L49.25 68.3549L46.75 68.3549ZM66 45.5049H48V48.0049H66V45.5049ZM48 45.5049H30V48.0049H48V45.5049ZM70.75 40.7549C70.75 42.3624 69.9527 43.7837 68.7264 44.6452L70.1635 46.6909C72.0275 45.3814 73.25 43.211 73.25 40.7549H70.75ZM68.7264 44.6452C67.9551 45.187 67.0165 45.5049 66 45.5049V48.0049C67.5474 48.0049 68.985 47.5188 70.1635 46.6909L68.7264 44.6452ZM70.85 51.8978C70.85 48.6653 70.8508 47.4161 70.6903 45.5603L68.1996 45.7757C68.3492 47.505 68.35 48.6438 68.35 51.8978H70.85ZM48 36.005L63.4191 36.0049L63.4191 33.5049L48 33.505L48 36.005ZM63.4192 36.0049L64.0405 36.0049L64.0403 33.5049L63.419 33.5049L63.4192 36.0049ZM63.4191 36.0049L66 36.0049L66 33.5049L63.4191 33.5049L63.4191 36.0049ZM32.3361 33.5049H30V36.0049H32.3361V33.5049ZM30 36.0049L39 36.005L39 33.505L30 33.5049L30 36.0049ZM39 36.005L48 36.005L48 33.505L39 33.505L39 36.005ZM32.3361 36.0049L39 36.005L39 33.505L32.3361 33.5049L32.3361 36.0049ZM48 36.005L64.0404 36.0049L64.0404 33.5049L48 33.505L48 36.005Z");
     			attr_dev(path5, "fill", "#DD4141");
-    			add_location(path5, file$3, 100, 14, 10246);
+    			add_location(path5, file$3, 100, 14, 10243);
     			attr_dev(svg2, "class", "icon icon-gift svelte-j0uakj");
     			attr_dev(svg2, "width", "96");
     			attr_dev(svg2, "height", "96");
     			attr_dev(svg2, "viewBox", "0 0 96 96");
     			attr_dev(svg2, "fill", "none");
     			attr_dev(svg2, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg2, file$3, 92, 12, 10008);
+    			add_location(svg2, file$3, 92, 12, 10005);
     			attr_dev(span2, "class", "title svelte-j0uakj");
-    			add_location(span2, file$3, 105, 12, 15272);
+    			add_location(span2, file$3, 105, 12, 15269);
     			attr_dev(a2, "class", "link svelte-j0uakj");
     			attr_dev(a2, "href", "/");
-    			add_location(a2, file$3, 91, 10, 9969);
+    			add_location(a2, file$3, 91, 10, 9966);
     			attr_dev(li2, "class", "item svelte-j0uakj");
-    			add_location(li2, file$3, 90, 8, 9940);
+    			add_location(li2, file$3, 90, 8, 9937);
     			attr_dev(ul, "class", "list svelte-j0uakj");
-    			add_location(ul, file$3, 37, 6, 1424);
+    			add_location(ul, file$3, 37, 6, 1421);
     			attr_dev(div1, "class", "content svelte-j0uakj");
-    			add_location(div1, file$3, 9, 4, 304);
+    			add_location(div1, file$3, 9, 4, 301);
     			attr_dev(div2, "class", "wrapper");
-    			add_location(div2, file$3, 8, 2, 277);
+    			add_location(div2, file$3, 8, 2, 274);
     			attr_dev(section, "class", "section services svelte-j0uakj");
     			attr_dev(section, "id", "services");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$3, 7, 0, 186);
+    			add_location(section, file$3, 7, 0, 183);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10559,7 +10559,7 @@ var app = (function () {
     function instance$4($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Services', slots, []);
-    	let bgUrl = "../content/Services/bg.jpg";
+    	let bgUrl = "content/Services/bg.jpg";
     	let sectionTitle = "Дополнительные развлечения и услуги";
     	const writable_props = [];
 
@@ -10613,7 +10613,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = `${/*sectionTitle*/ ctx[1]}`;
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$2, 59, 6, 6122);
+    			add_location(span, file$2, 59, 6, 6113);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -10644,7 +10644,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = `${/*sectionSubtitle*/ ctx[2]}`;
     			attr_dev(span, "slot", "subtitle");
-    			add_location(span, file$2, 60, 6, 6170);
+    			add_location(span, file$2, 60, 6, 6161);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -10713,23 +10713,23 @@ var app = (function () {
     			attr_dev(svg, "viewBox", "0 0 128 128");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			add_location(svg, file$2, 67, 12, 6372);
+    			add_location(svg, file$2, 67, 12, 6363);
     			if (!src_url_equal(img.src, img_src_value = /*item*/ ctx[4].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*item*/ ctx[4].title);
-    			add_location(img, file$2, 77, 12, 6667);
+    			add_location(img, file$2, 77, 12, 6658);
     			attr_dev(div0, "class", "image svelte-15iuclr");
-    			add_location(div0, file$2, 66, 10, 6339);
+    			add_location(div0, file$2, 66, 10, 6330);
     			attr_dev(h4, "class", "title svelte-15iuclr");
-    			add_location(h4, file$2, 80, 12, 6771);
+    			add_location(h4, file$2, 80, 12, 6762);
     			attr_dev(p, "class", "descr svelte-15iuclr");
-    			add_location(p, file$2, 81, 12, 6820);
+    			add_location(p, file$2, 81, 12, 6811);
     			attr_dev(div1, "class", "content svelte-15iuclr");
-    			add_location(div1, file$2, 79, 10, 6736);
+    			add_location(div1, file$2, 79, 10, 6727);
     			attr_dev(a, "class", "more svelte-15iuclr");
     			attr_dev(a, "href", /*item*/ ctx[4].urlMore);
-    			add_location(a, file$2, 83, 10, 6883);
+    			add_location(a, file$2, 83, 10, 6874);
     			attr_dev(article, "class", "item svelte-15iuclr");
-    			add_location(article, file$2, 65, 8, 6305);
+    			add_location(article, file$2, 65, 8, 6296);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, article, anchor);
@@ -10807,13 +10807,13 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "items svelte-15iuclr");
-    			add_location(div0, file$2, 63, 4, 6247);
+    			add_location(div0, file$2, 63, 4, 6238);
     			attr_dev(div1, "class", "wrapper");
-    			add_location(div1, file$2, 57, 2, 6071);
+    			add_location(div1, file$2, 57, 2, 6062);
     			attr_dev(section, "class", "section sports-complex svelte-15iuclr");
     			attr_dev(section, "id", "sportsComplex");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
-    			add_location(section, file$2, 52, 0, 5958);
+    			add_location(section, file$2, 52, 0, 5949);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10894,7 +10894,7 @@ var app = (function () {
     function instance$3($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('SportsComplex', slots, []);
-    	let bgUrl = "../content/SportsComplex/bg.jpg";
+    	let bgUrl = "content/SportsComplex/bg.jpg";
     	let sectionTitle = "Спортивный комплекс";
     	let sectionSubtitle = "Горнолыжный комплекс находится в городе Нижний Тагил Свердловской области, на склонах горы Долгой горного хребта Весёлые горы Среднего Урала";
 
@@ -10902,7 +10902,7 @@ var app = (function () {
     		{
     			title: "Трамплины",
     			descr: "Комплекс трамплинов включает в себя 4 трамплина проектной мощностью: К-5, К-20, К-40, К-60, К-90, К-120.",
-    			img: "./content/SportsComplex/item-1.jpg",
+    			img: "content/SportsComplex/item-1.jpg",
     			svgIconPath: `
               <path
                 d="M120.042 26.6401C120.042 32.5782 115.228 37.3921 109.29 37.3921C103.351 37.3921 98.5376 32.5782 98.5376 26.6401C98.5376 20.7019 103.351 15.8881 109.29 15.8881C115.228 15.8881 120.042 20.7019 120.042 26.6401Z"
@@ -10918,7 +10918,7 @@ var app = (function () {
     		{
     			title: "Горнолыжные трассы",
     			descr: "Комплекс горнолыжных трасс включает в себя 4 трассы: учебная, спортивная, туристическая, дальняя. Протяженность трасс от 190 до 720 м, с максимальным перепадом высот 112 м.",
-    			img: "./content/SportsComplex/item-2.jpg",
+    			img: "content/SportsComplex/item-2.jpg",
     			svgIconPath: `
           <path d="M72.9545 22.0442C72.9545 27.5425 68.4972 31.9997 62.9989 31.9997C57.5006 31.9997 53.0434 27.5425 53.0434 22.0442C53.0434 16.5459 57.5006 12.0886 62.9989 12.0886C68.4972 12.0886 72.9545 16.5459 72.9545 22.0442Z" fill="white"/>
           <path d="M95.1472 20.7643C91.1649 24.7465 84.0538 30.2931 79.3605 33.1376C65.8494 41.2443 41.956 57.3154 40.9605 59.1643C40.3916 60.0176 40.9605 61.7243 42.0983 62.862C44.0894 64.8531 45.5116 64.2843 56.7472 57.742L69.4049 50.4887L71.8227 55.182C73.1027 57.5998 74.2405 60.1598 74.3827 60.5865C74.3827 61.1554 71.5383 62.2931 67.9827 63.2887C63.716 64.4265 59.876 66.9865 56.4627 70.8265L51.2005 76.5154L54.6138 79.0754C58.0272 81.6354 58.0272 81.6354 60.8716 78.222C62.8627 75.8043 65.7072 74.5243 71.2538 73.8131C75.236 73.3865 78.6494 73.2443 78.6494 73.5287C78.6494 73.9554 77.6538 77.0843 76.516 80.3554C73.3872 89.3154 73.8138 93.8665 77.9383 96.5687C82.6316 99.6976 82.916 99.5554 82.916 94.4354C82.916 91.3065 85.1916 86.8976 90.7383 79.3598C95.0049 73.3865 98.5605 67.1287 98.5605 65.2798C98.5605 63.4309 96.1427 57.1731 93.2983 51.342L88.036 40.6754L98.276 30.0087C103.965 24.3198 108.516 18.9154 108.516 18.2043C108.516 16.4976 105.529 13.5109 103.823 13.5109C103.112 13.5109 99.2716 16.782 95.1472 20.7643Z" fill="white"/>
@@ -10929,7 +10929,7 @@ var app = (function () {
     		{
     			title: "Лыжный стадион",
     			descr: "На лыжном стадионе имеются несколько беговых лыжных трасс. Летом на стадионе открывается лыжероллерная трасса.",
-    			img: "./content/SportsComplex/item-3.jpg",
+    			img: "content/SportsComplex/item-3.jpg",
     			svgIconPath: `
           <path d="M116.928 21.6951C116.928 27.2719 112.407 31.7928 106.83 31.7928C101.253 31.7928 96.7324 27.2719 96.7324 21.6951C96.7324 16.1182 101.253 11.5973 106.83 11.5973C112.407 11.5973 116.928 16.1182 116.928 21.6951Z" fill="white"/>
           <path d="M11.6605 16.402C11.5994 16.5076 11.455 16.9132 11.7328 17.3409C12.9945 19.1897 18.5224 23.9496 25.2782 29.0165C33.3849 35.132 40.7804 41.2476 41.776 42.6698C42.7715 44.092 44.1937 45.2298 45.0471 45.2298C45.7582 45.2298 50.0249 42.2431 54.7182 38.6876C60.976 33.852 64.1049 32.2876 67.0916 32.7142C70.9316 33.1409 70.7893 33.2831 63.2516 39.1142C56.5671 44.2342 54.576 46.9365 50.4515 56.4654C46.6115 65.2831 43.1982 70.1186 34.6649 79.0786C23.9982 90.3142 23.5715 90.5986 19.0204 89.1764C15.7271 88.1473 14.1727 86.8113 11.8411 88.9913C10.0697 91.0806 11.2204 93.3818 12.1938 94.1542C13.3315 95.292 69.4628 110.312 90.9384 116.286C93.2523 116.815 94.9713 115.475 95.5272 113.824C96.1939 111.735 94.9939 109.552 92.923 109.005C76.8519 104.596 34.096 93.3009 33.9537 93.0164C33.8115 92.8742 40.6382 85.9053 49.1715 77.372L64.6738 62.1542L70.3627 65.4254C76.7627 68.9809 76.9049 69.4075 78.3271 80.3587L79.3227 87.8964H62.5404C53.4382 87.8964 46.1849 88.1809 46.6115 88.6075C47.0382 89.0342 53.296 91.0253 60.4071 92.8742C71.5004 95.8609 76.7627 96.4298 93.8293 96.4298C104.893 96.4298 109.661 96.4298 111.775 96.4298C111.775 96.4298 117.083 96.4298 117.083 92.1631C117.083 87.8964 111.775 87.8964 111.775 87.8964H87.5716V76.5187C87.5716 65.5675 87.4293 64.9987 82.5938 59.5942L77.4738 54.0476L86.0071 47.3631C94.9671 40.3942 96.9582 36.412 94.6827 30.4387C92.8338 25.3187 88.1404 23.8964 73.4916 23.8964H60.976L52.5849 30.2965C48.0337 33.7098 43.6249 36.6965 42.9137 36.6965C42.2026 36.6965 35.8027 32.2876 28.6915 27.0253C17.0929 18.3264 13.8645 15.8861 12.527 15.8611C12.2105 15.8465 11.8328 16.0354 11.6605 16.402Z" fill="white"/>
