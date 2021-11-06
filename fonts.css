@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600;700&display=swap");
+
+@font-face {
+  font-family: "Phenomena";
+  src: url("../fonts/Phenomena-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Phenomena";
+  src: url("../fonts/Phenomena-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Phenomena";
+  src: url("../fonts/Phenomena-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
