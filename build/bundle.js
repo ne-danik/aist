@@ -1,5 +1,5 @@
 
-//(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -3694,34 +3694,34 @@ var app = (function () {
     			video = element("video");
     			source = element("source");
     			attr_dev(h2, "class", "subtitle svelte-1ms9p8u");
-    			add_location(h2, file$6, 18, 4, 569);
+    			add_location(h2, file$6, 19, 4, 621);
     			attr_dev(h1, "class", "title svelte-1ms9p8u");
-    			add_location(h1, file$6, 19, 4, 611);
+    			add_location(h1, file$6, 20, 4, 663);
     			attr_dev(p, "class", "svelte-1ms9p8u");
-    			add_location(p, file$6, 20, 4, 647);
+    			add_location(p, file$6, 21, 4, 699);
     			attr_dev(div0, "class", "heading svelte-1ms9p8u");
-    			add_location(div0, file$6, 17, 2, 542);
+    			add_location(div0, file$6, 18, 2, 594);
     			attr_dev(div1, "class", "shadow svelte-1ms9p8u");
-    			add_location(div1, file$6, 22, 2, 675);
+    			add_location(div1, file$6, 23, 2, 727);
     			attr_dev(img, "class", "down-btn__icon svelte-1ms9p8u");
     			if (!src_url_equal(img.src, img_src_value = "images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			add_location(img, file$6, 25, 4, 751);
+    			add_location(img, file$6, 26, 4, 803);
     			attr_dev(a, "class", "down-btn svelte-1ms9p8u");
     			attr_dev(a, "href", "#sportsComplex");
-    			add_location(a, file$6, 24, 2, 703);
+    			add_location(a, file$6, 25, 2, 755);
     			if (!src_url_equal(source.src, source_src_value = /*bgVideoUrl*/ ctx[4])) attr_dev(source, "src", source_src_value);
     			attr_dev(source, "type", "video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"");
-    			add_location(source, file$6, 29, 4, 903);
+    			add_location(source, file$6, 30, 4, 955);
     			attr_dev(video, "width", "100%");
     			attr_dev(video, "height", "100%");
     			attr_dev(video, "poster", /*poster*/ ctx[3]);
     			video.autoplay = true;
     			video.muted = true;
     			video.loop = true;
-    			add_location(video, file$6, 28, 2, 834);
+    			add_location(video, file$6, 29, 2, 886);
     			attr_dev(div2, "class", "main svelte-1ms9p8u");
-    			add_location(div2, file$6, 14, 0, 494);
+    			add_location(div2, file$6, 15, 0, 546);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3787,7 +3787,7 @@ var app = (function () {
     	let poster = "images/main-bg.jpg";
 
     	/* let bgVideoUrl = "content/Main/bg.mp4";  */
-    	let bgVideoUrl = "http://surl.li/aphfe";
+    	let bgVideoUrl = "content/Main/bg.webm";
 
     	let { title = "Гора Долгая" } = $$props;
     	let { subtitle = "Горнолыжный комплекс" } = $$props;
