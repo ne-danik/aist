@@ -1306,7 +1306,7 @@ var app = (function () {
     			attr_dev(img, "width", /*width*/ ctx[2]);
     			attr_dev(img, "height", /*height*/ ctx[3]);
     			attr_dev(img, "alt", /*alt*/ ctx[1]);
-    			add_location(img, file$e, 7, 0, 158);
+    			add_location(img, file$e, 7, 0, 155);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
