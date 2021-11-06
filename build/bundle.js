@@ -1352,7 +1352,7 @@ var app = (function () {
     function instance$f($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('LogoColor', slots, []);
-    	let { src = '../images/logo.svg' } = $$props;
+    	let { src = 'images/logo.svg' } = $$props;
     	let { alt = 'Logotype' } = $$props;
     	let { width = 'auto' } = $$props;
     	let { height = 'auto' } = $$props;
@@ -3563,7 +3563,7 @@ var app = (function () {
     		document.body.classList.toggle("noscroll");
     	};
 
-    	let src = "/images/logo-white.svg";
+    	let src = "images/logo-white.svg";
     	let { altLogo = "Logo" } = $$props;
 
     	let menuItems = [
@@ -3704,7 +3704,7 @@ var app = (function () {
     			attr_dev(div1, "class", "shadow svelte-1ms9p8u");
     			add_location(div1, file$6, 20, 2, 618);
     			attr_dev(img, "class", "down-btn__icon svelte-1ms9p8u");
-    			if (!src_url_equal(img.src, img_src_value = "../images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
     			add_location(img, file$6, 23, 4, 694);
     			attr_dev(a, "class", "down-btn svelte-1ms9p8u");
