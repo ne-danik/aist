@@ -2759,7 +2759,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (71:10) {#if item.links}
+    // (69:10) {#if item.links}
     function create_if_block$2(ctx) {
     	let ul;
     	let each_value_1 = /*item*/ ctx[1].links;
@@ -2778,8 +2778,8 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(ul, "class", "nav__list svelte-1p60ri6");
-    			add_location(ul, file$9, 71, 12, 1725);
+    			attr_dev(ul, "class", "nav__list svelte-uj3wzc");
+    			add_location(ul, file$9, 69, 12, 1667);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, ul, anchor);
@@ -2823,14 +2823,14 @@ var app = (function () {
     		block,
     		id: create_if_block$2.name,
     		type: "if",
-    		source: "(71:10) {#if item.links}",
+    		source: "(69:10) {#if item.links}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (73:14) {#each item.links as link}
+    // (71:14) {#each item.links as link}
     function create_each_block_1(ctx) {
     	let li;
     	let a;
@@ -2845,10 +2845,10 @@ var app = (function () {
     			t0 = text(t0_value);
     			t1 = space();
     			attr_dev(a, "href", "/");
-    			attr_dev(a, "class", "svelte-1p60ri6");
-    			add_location(a, file$9, 74, 18, 1854);
-    			attr_dev(li, "class", "nav__list-item svelte-1p60ri6");
-    			add_location(li, file$9, 73, 16, 1807);
+    			attr_dev(a, "class", "svelte-uj3wzc");
+    			add_location(a, file$9, 72, 18, 1796);
+    			attr_dev(li, "class", "nav__list-item svelte-uj3wzc");
+    			add_location(li, file$9, 71, 16, 1749);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -2866,14 +2866,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(73:14) {#each item.links as link}",
+    		source: "(71:14) {#each item.links as link}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (66:6) {#each list as item}
+    // (64:6) {#each list as item}
     function create_each_block$3(ctx) {
     	let div;
     	let p;
@@ -2893,13 +2893,13 @@ var app = (function () {
     			t1 = space();
     			if (if_block) if_block.c();
     			t2 = space();
-    			attr_dev(a, "class", "nav__heading-link svelte-1p60ri6");
+    			attr_dev(a, "class", "nav__heading-link svelte-uj3wzc");
     			attr_dev(a, "href", "/");
-    			add_location(a, file$9, 68, 12, 1613);
-    			attr_dev(p, "class", "nav__heading svelte-1p60ri6");
-    			add_location(p, file$9, 67, 10, 1575);
-    			attr_dev(div, "class", "nav svelte-1p60ri6");
-    			add_location(div, file$9, 66, 8, 1546);
+    			add_location(a, file$9, 66, 12, 1555);
+    			attr_dev(p, "class", "nav__heading svelte-uj3wzc");
+    			add_location(p, file$9, 65, 10, 1517);
+    			attr_dev(div, "class", "nav svelte-uj3wzc");
+    			add_location(div, file$9, 64, 8, 1488);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -2923,7 +2923,7 @@ var app = (function () {
     		block,
     		id: create_each_block$3.name,
     		type: "each",
-    		source: "(66:6) {#each list as item}",
+    		source: "(64:6) {#each list as item}",
     		ctx
     	});
 
@@ -2952,12 +2952,12 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "content svelte-1p60ri6");
-    			add_location(div0, file$9, 64, 4, 1487);
+    			attr_dev(div0, "class", "content svelte-uj3wzc");
+    			add_location(div0, file$9, 62, 4, 1429);
     			attr_dev(div1, "class", "wrapper");
-    			add_location(div1, file$9, 63, 2, 1460);
-    			attr_dev(div2, "class", "box svelte-1p60ri6");
-    			add_location(div2, file$9, 62, 0, 1439);
+    			add_location(div1, file$9, 61, 2, 1402);
+    			attr_dev(div2, "class", "box svelte-uj3wzc");
+    			add_location(div2, file$9, 60, 0, 1381);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3020,33 +3020,32 @@ var app = (function () {
     	validate_slots('AsideMenu', slots, []);
 
     	let list = [
-    		{
-    			title: "Спортивная школа",
-    			links: [
-    				"Сведения об организации спортивной подготовки",
-    				"Условия зачисления в школу",
-    				"График работы",
-    				"Контакты",
-    				"Отделения",
-    				"Спортсмены",
-    				"Сотрудники",
-    				"Наблюдательный совет",
-    				"Антидопинг",
-    				"Вакансии",
-    				"Государственное задание",
-    				"Материально техническое обеспечение",
-    				"Спонсоры и партнеры",
-    				"Закупки",
-    				"Перечень рекомендуемых образовательных программ",
-    				"Профилактика",
-    				"Аренда"
-    			]
-    		},
+    		/* {
+      title: "Спортивная школа",
+      links: [
+        "Сведения об организации спортивной подготовки",
+        "Условия зачисления в школу",
+        "График работы",
+        "Контакты",
+        "Отделения",
+        "Спортсмены",
+        "Сотрудники",
+        "Наблюдательный совет",
+        "Антидопинг",
+        "Вакансии",
+        "Государственное задание",
+        "Материально техническое обеспечение",
+        "Спонсоры и партнеры",
+        "Закупки",
+        "Перечень рекомендуемых образовательных программ",
+        "Профилактика",
+        "Аренда",
+      ],
+    }, */
     		{
     			title: "Каталог услуг",
     			links: [
     				"Платные услуги",
-    				"Спортивные площадки",
     				"Подарочные сертификаты",
     				"Экскурсии на трамплины",
     				"Гостиничный комплекс",
@@ -3056,21 +3055,20 @@ var app = (function () {
     			]
     		},
     		{
-    			title: "Спортивный коплекс",
+    			title: "Спортивный комплекс",
     			links: [
     				"Трамплины",
     				"Горнолыжные трассы",
     				"Лыжный стадион",
     				"Стрелковый стенд",
+    				"Спортивные площадки",
     				"Правила пользования сноутюбингом",
     				"Правила работы горнолыжного проката"
     			]
     		},
-    		{
-    			title: "Соревнования",
-    			links: ["Календарь соревнований", "Результаты соревнований", "Фотоальбомы"]
-    		},
-    		{ title: "Новости" }
+    		{ title: "Новости" },
+    		{ title: "Соревнования" },
+    		{ title: "Спортивная школа «Аист»" }
     	];
 
     	const writable_props = [];
@@ -3289,7 +3287,7 @@ var app = (function () {
     			a = element("a");
     			t0 = text(t0_value);
     			t1 = space();
-    			attr_dev(a, "class", "menu__link svelte-efysdv");
+    			attr_dev(a, "class", "menu__link svelte-1p6g9dq");
     			attr_dev(a, "href", /*menuItem*/ ctx[6].url);
     			add_location(a, file$7, 47, 14, 1337);
     			attr_dev(li, "class", "menu__item");
@@ -3426,15 +3424,15 @@ var app = (function () {
     			attr_dev(a, "class", "logo");
     			attr_dev(a, "href", "/");
     			add_location(a, file$7, 39, 6, 1108);
-    			attr_dev(ul, "class", "menu__list svelte-efysdv");
+    			attr_dev(ul, "class", "menu__list svelte-1p6g9dq");
     			add_location(ul, file$7, 44, 8, 1220);
-    			attr_dev(nav, "class", "menu svelte-efysdv");
+    			attr_dev(nav, "class", "menu svelte-1p6g9dq");
     			add_location(nav, file$7, 43, 6, 1192);
-    			attr_dev(div0, "class", "header-inner svelte-efysdv");
+    			attr_dev(div0, "class", "header-inner svelte-1p6g9dq");
     			add_location(div0, file$7, 38, 4, 1074);
     			attr_dev(div1, "class", "wrapper");
     			add_location(div1, file$7, 37, 2, 1047);
-    			attr_dev(header, "class", "header svelte-efysdv");
+    			attr_dev(header, "class", "header svelte-1p6g9dq");
     			add_location(header, file$7, 36, 0, 1020);
     		},
     		l: function claim(nodes) {
@@ -3693,35 +3691,37 @@ var app = (function () {
     			t8 = space();
     			video = element("video");
     			source = element("source");
-    			attr_dev(h2, "class", "subtitle svelte-1ms9p8u");
-    			add_location(h2, file$6, 19, 4, 621);
-    			attr_dev(h1, "class", "title svelte-1ms9p8u");
-    			add_location(h1, file$6, 20, 4, 663);
-    			attr_dev(p, "class", "svelte-1ms9p8u");
-    			add_location(p, file$6, 21, 4, 699);
-    			attr_dev(div0, "class", "heading svelte-1ms9p8u");
-    			add_location(div0, file$6, 18, 2, 594);
-    			attr_dev(div1, "class", "shadow svelte-1ms9p8u");
-    			add_location(div1, file$6, 23, 2, 727);
-    			attr_dev(img, "class", "down-btn__icon svelte-1ms9p8u");
+    			attr_dev(h2, "class", "subtitle svelte-1vi6rez");
+    			add_location(h2, file$6, 19, 4, 615);
+    			attr_dev(h1, "class", "title svelte-1vi6rez");
+    			add_location(h1, file$6, 20, 4, 657);
+    			attr_dev(p, "class", "svelte-1vi6rez");
+    			add_location(p, file$6, 21, 4, 693);
+    			attr_dev(div0, "class", "heading svelte-1vi6rez");
+    			add_location(div0, file$6, 18, 2, 588);
+    			attr_dev(div1, "class", "shadow svelte-1vi6rez");
+    			add_location(div1, file$6, 23, 2, 721);
+    			attr_dev(img, "class", "down-btn__icon svelte-1vi6rez");
     			if (!src_url_equal(img.src, img_src_value = "images/icons/collapse.svg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "width", "32");
+    			attr_dev(img, "height", "32");
     			attr_dev(img, "alt", "");
-    			add_location(img, file$6, 26, 4, 803);
-    			attr_dev(a, "class", "down-btn svelte-1ms9p8u");
+    			add_location(img, file$6, 26, 4, 797);
+    			attr_dev(a, "class", "down-btn svelte-1vi6rez");
     			attr_dev(a, "href", "#sportsComplex");
-    			add_location(a, file$6, 25, 2, 755);
+    			add_location(a, file$6, 25, 2, 749);
     			if (!src_url_equal(source.src, source_src_value = /*bgVideoUrl*/ ctx[4])) attr_dev(source, "src", source_src_value);
     			attr_dev(source, "type", "video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"");
-    			add_location(source, file$6, 30, 4, 955);
+    			add_location(source, file$6, 30, 4, 972);
     			attr_dev(video, "width", "100%");
     			attr_dev(video, "height", "100%");
     			attr_dev(video, "poster", /*poster*/ ctx[3]);
     			video.autoplay = true;
     			video.muted = true;
     			video.loop = true;
-    			add_location(video, file$6, 29, 2, 886);
-    			attr_dev(div2, "class", "main svelte-1ms9p8u");
-    			add_location(div2, file$6, 15, 0, 546);
+    			add_location(video, file$6, 29, 2, 903);
+    			attr_dev(div2, "class", "main svelte-1vi6rez");
+    			add_location(div2, file$6, 15, 0, 540);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -9991,24 +9991,24 @@ var app = (function () {
     			t7 = space();
     			if (!src_url_equal(img.src, img_src_value = /*post*/ ctx[3].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*post*/ ctx[3].title);
-    			attr_dev(img, "class", "svelte-1c3u35o");
+    			attr_dev(img, "class", "svelte-19omtk3");
     			add_location(img, file$4, 40, 14, 1406);
-    			attr_dev(div0, "class", "news-img svelte-1c3u35o");
+    			attr_dev(div0, "class", "news-img svelte-19omtk3");
     			add_location(div0, file$4, 39, 12, 1368);
-    			attr_dev(div1, "class", "meta svelte-1c3u35o");
+    			attr_dev(div1, "class", "meta svelte-19omtk3");
     			add_location(div1, file$4, 42, 12, 1479);
-    			attr_dev(a0, "class", "news-title svelte-1c3u35o");
+    			attr_dev(a0, "class", "news-title svelte-19omtk3");
     			attr_dev(a0, "href", "/");
     			add_location(a0, file$4, 46, 18, 1626);
     			add_location(h4, file$4, 46, 14, 1622);
-    			attr_dev(p, "class", "news-descr svelte-1c3u35o");
+    			attr_dev(p, "class", "news-descr svelte-19omtk3");
     			add_location(p, file$4, 47, 14, 1694);
     			attr_dev(a1, "class", "more-link");
     			attr_dev(a1, "href", "/");
     			add_location(a1, file$4, 48, 14, 1748);
-    			attr_dev(div2, "class", "news-content svelte-1c3u35o");
+    			attr_dev(div2, "class", "news-content svelte-19omtk3");
     			add_location(div2, file$4, 45, 12, 1580);
-    			attr_dev(article, "class", "news-box svelte-1c3u35o");
+    			attr_dev(article, "class", "news-box svelte-19omtk3");
     			add_location(article, file$4, 38, 10, 1328);
     		},
     		m: function mount(target, anchor) {
@@ -10100,13 +10100,13 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "news-block svelte-1c3u35o");
+    			attr_dev(div0, "class", "news-block svelte-19omtk3");
     			add_location(div0, file$4, 36, 6, 1262);
-    			attr_dev(div1, "class", "content svelte-1c3u35o");
+    			attr_dev(div1, "class", "content svelte-19omtk3");
     			add_location(div1, file$4, 31, 4, 1132);
     			attr_dev(div2, "class", "wrapper");
     			add_location(div2, file$4, 30, 2, 1105);
-    			attr_dev(section, "class", "section news svelte-1c3u35o");
+    			attr_dev(section, "class", "section news svelte-19omtk3");
     			attr_dev(section, "id", "newsBlog");
     			set_style(section, "background-image", "url(" + /*bgUrl*/ ctx[0] + ")");
     			add_location(section, file$4, 25, 0, 1007);
@@ -11307,7 +11307,7 @@ var app = (function () {
 
     /* src\App.svelte generated by Svelte v3.43.2 */
 
-    // (26:0) {#if y > 1000}
+    // (30:0) {#if y > 100}
     function create_if_block(ctx) {
     	let backtotop;
     	let current;
@@ -11339,7 +11339,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(26:0) {#if y > 1000}",
+    		source: "(30:0) {#if y > 100}",
     		ctx
     	});
 
@@ -11354,22 +11354,23 @@ var app = (function () {
     	};
 
     	let scrolling_timeout;
-    	let main;
     	let t0;
-    	let sportscomplex;
+    	let main;
     	let t1;
-    	let hotelcomplex;
+    	let sportscomplex;
     	let t2;
-    	let services;
+    	let hotelcomplex;
     	let t3;
-    	let address;
+    	let services;
     	let t4;
-    	let news;
+    	let address;
     	let t5;
-    	let subscribe_1;
+    	let news;
     	let t6;
-    	let footer;
+    	let subscribe_1;
     	let t7;
+    	let footer;
+    	let t8;
     	let if_block_anchor;
     	let current;
     	let mounted;
@@ -11383,49 +11384,52 @@ var app = (function () {
     	news = new News({ $$inline: true });
     	subscribe_1 = new Subscribe({ $$inline: true });
     	footer = new Footer({ $$inline: true });
-    	let if_block = /*y*/ ctx[0] > 1000 && create_if_block(ctx);
+    	let if_block = /*y*/ ctx[0] > 100 && create_if_block(ctx);
 
     	const block = {
     		c: function create() {
-    			create_component(main.$$.fragment);
     			t0 = space();
-    			create_component(sportscomplex.$$.fragment);
+    			create_component(main.$$.fragment);
     			t1 = space();
-    			create_component(hotelcomplex.$$.fragment);
+    			create_component(sportscomplex.$$.fragment);
     			t2 = space();
-    			create_component(services.$$.fragment);
+    			create_component(hotelcomplex.$$.fragment);
     			t3 = space();
-    			create_component(address.$$.fragment);
+    			create_component(services.$$.fragment);
     			t4 = space();
-    			create_component(news.$$.fragment);
+    			create_component(address.$$.fragment);
     			t5 = space();
-    			create_component(subscribe_1.$$.fragment);
+    			create_component(news.$$.fragment);
     			t6 = space();
-    			create_component(footer.$$.fragment);
+    			create_component(subscribe_1.$$.fragment);
     			t7 = space();
+    			create_component(footer.$$.fragment);
+    			t8 = space();
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
+    			document.title = "ГЛК \"Гора Долгая\"";
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			mount_component(main, target, anchor);
     			insert_dev(target, t0, anchor);
-    			mount_component(sportscomplex, target, anchor);
+    			mount_component(main, target, anchor);
     			insert_dev(target, t1, anchor);
-    			mount_component(hotelcomplex, target, anchor);
+    			mount_component(sportscomplex, target, anchor);
     			insert_dev(target, t2, anchor);
-    			mount_component(services, target, anchor);
+    			mount_component(hotelcomplex, target, anchor);
     			insert_dev(target, t3, anchor);
-    			mount_component(address, target, anchor);
+    			mount_component(services, target, anchor);
     			insert_dev(target, t4, anchor);
-    			mount_component(news, target, anchor);
+    			mount_component(address, target, anchor);
     			insert_dev(target, t5, anchor);
-    			mount_component(subscribe_1, target, anchor);
+    			mount_component(news, target, anchor);
     			insert_dev(target, t6, anchor);
-    			mount_component(footer, target, anchor);
+    			mount_component(subscribe_1, target, anchor);
     			insert_dev(target, t7, anchor);
+    			mount_component(footer, target, anchor);
+    			insert_dev(target, t8, anchor);
     			if (if_block) if_block.m(target, anchor);
     			insert_dev(target, if_block_anchor, anchor);
     			current = true;
@@ -11449,7 +11453,7 @@ var app = (function () {
     				scrolling_timeout = setTimeout(clear_scrolling, 100);
     			}
 
-    			if (/*y*/ ctx[0] > 1000) {
+    			if (/*y*/ ctx[0] > 100) {
     				if (if_block) {
     					if (dirty & /*y*/ 1) {
     						transition_in(if_block, 1);
@@ -11496,22 +11500,23 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(main, detaching);
     			if (detaching) detach_dev(t0);
-    			destroy_component(sportscomplex, detaching);
+    			destroy_component(main, detaching);
     			if (detaching) detach_dev(t1);
-    			destroy_component(hotelcomplex, detaching);
+    			destroy_component(sportscomplex, detaching);
     			if (detaching) detach_dev(t2);
-    			destroy_component(services, detaching);
+    			destroy_component(hotelcomplex, detaching);
     			if (detaching) detach_dev(t3);
-    			destroy_component(address, detaching);
+    			destroy_component(services, detaching);
     			if (detaching) detach_dev(t4);
-    			destroy_component(news, detaching);
+    			destroy_component(address, detaching);
     			if (detaching) detach_dev(t5);
-    			destroy_component(subscribe_1, detaching);
+    			destroy_component(news, detaching);
     			if (detaching) detach_dev(t6);
-    			destroy_component(footer, detaching);
+    			destroy_component(subscribe_1, detaching);
     			if (detaching) detach_dev(t7);
+    			destroy_component(footer, detaching);
+    			if (detaching) detach_dev(t8);
     			if (if_block) if_block.d(detaching);
     			if (detaching) detach_dev(if_block_anchor);
     			mounted = false;

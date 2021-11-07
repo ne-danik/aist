@@ -5,6 +5,10 @@
 	--primary-color: #d8eaf4;
 	--secondary-color: #6f95c0;
 	--branded-color: #dd4141;
+
+	--max_device_width_laptop: 1239px;
+	--max_device_width_tablet: 1023px;
+	--max_device_width_mobile: 767px;
 }
 
 html {
@@ -94,8 +98,8 @@ section {
 }
 
 svg path {
-	fill:inherit;
-	stroke:inherit;
+	fill: inherit;
+	stroke: inherit;
 	transition: all 0.4s;
 }
 
