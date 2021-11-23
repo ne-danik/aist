@@ -4289,13 +4289,13 @@ var app = (function () {
     function instance$7($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Main', slots, []);
-    	let poster = "images/main-bg.jpg";
+    	let poster = "images/main_bg.jpg";
 
     	/* let bgVideoUrl = "content/Main/bg.mp4";  */
     	let bgVideoUrl = "content/Main/bg.webm";
 
     	let bgVideoUrlMobile = "content/Main/bg_mobile.webm";
-    	let posterMobile = "images/main-bg-mobile.jpg";
+    	let posterMobile = "images/main_bg_mobile.jpg";
 
     	/* let bgVideoUrl = "http://surl.li/aphfe"; */
     	let format = `video/mp4; codecs="avc1.42E01E, mp4a.40.2"`;
