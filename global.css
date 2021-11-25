@@ -89,17 +89,23 @@ textarea {
 	transition: all 0.2s;
 }
 
-section {
+.section {
 	position: relative;
-	margin-top: 100px;
+	padding-top: 100px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
 
 @media screen and (max-width: 1239px), (max-device-width: 1239px) {
-	section {
-		margin-top: 80px;
+	.section {
+		padding-top: 80px;
+	}
+}
+
+@media screen and (max-width: 967px), (max-device-width: 967px) {
+	.section {
+		padding-bottom: 80px;
 	}
 }
 
